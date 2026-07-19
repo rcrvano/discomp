@@ -1,0 +1,327 @@
+
+
+Если все серверы не отвечают, он повторяет попытки с экспоненциальной задержкой. 
+Причем, BOINC работает с минимальным приоритетом. Это значит, что он получает ресурсы процессора в последнюю очередь, т.е. если ни одной программе они не нужны. Таким образом, из-за него производительность системы не ухудшается (и не улучшается =) ). 
+
+
+
+
+
+
+считает значит еще
+время показывает не нули у которых статус status='2'
+status='2' - выполнен.
+0 - еще нет.
+1 - вроде должен быть что в процессе выполнения. это я еще посмотрю почему 1чку не пишет.
+
+
+
+
+process. stopeed. but in the communicator list it's still exists
+
+check list size
+
+упорядочивание
+
+когда будет время, может тогда сделать чтобы при decompose_modelling = 1 значение use_diff_cnf бралось бы автоматически = 0 ?
+
+node.cpp | process.cpp
+Нужно очищать значения выходных параметров перез запуском модуля. или стадии?
+но как быть с обработкой параллельного списка?
+перез запуском стадии.
+анализаровать все модули. их выходные параметры и доля них выполнять clean()?
+
+
+server.cpp
+:endModuleFailed_slot
+Привести в порядок 
+        if ( error_num == 0 ) {
+        } else if ( error_num == 2 ) {
+
+
+
+module.h
+add moder defines whats for client and whats for server.
+beacuse server create module. for each element of list.
+
+
+1. sdelat' proverku md4 module.xml na client i na servere
+
+document lin/discomp_parameter attributes!!!
+
+1. checkListParameterSequence - pridumat' chtobi ne delat' etogo!
+v param node ukazat' dont' check list parameters seq.
+
+2. DiscompModuleParameter:: logMessage_signal
+how to process on server?? if it's a part of process.cpp
+
+
+Zaikin. posmotret' pochemu ne ostanavlivaetsya module
+Communcator. proverit' vse commands.
+start process. vozvrashayet vsegda 1
+
+Communicator.
+	1. main.cpp
+	2. communicator.cpp
+	3. communicator.h
+	4. config.h
+	5. main.cpp
+	6. why it's not show any poutput? which sent by server?
+	!7. communicator. rename scripts. all whci don't contain claster. should contain communicator
+	8. display errors. 
+	9. format command line parameters. 
+	10. maybe output XML answer too? make it's as parameter
+
+Server.
+	1. why controlpoints created. if in the process.xml file parametrer is 0 ? 
+	2. sometime after killing server it's make segmentation fault.
+
+Server-Client communications
+	1. check module md5 sum. on both sides.
+
+
+Windows.
+	1. start process. no log file in the processes dir.
+	?2. in the document root file tipa read config from client.conf
+	? rprefixed check lib/common.cpp
+	3. twice start server under windows - second exited with segmentation fault
+
+Client.
+	1. start only one version
+
+
+Client and server:
+	1. reread config, modules, etc. when receivin HUP signal -1
+	2. 
+
+
+
+----------------------------------
+Plugin loading unloading
+plugin unloading
+
+Log
+1. Execution of module(51) ended on the remote node -> Execution of module(51) finished on the remote node
+2. 2007/08/25 14:44:45:401 [common][DiscompProcess]: Error: Execution of module(51) ended on the remote node(id:1) failed. message:Module execution finished but output parameters (id: 2) not defined
+move it to debug
+3. Module (id:51) successfuly finished on the node(id:1) .
+for what list count???? add list num to the log file!!! it's important
+4.  Error: Execution of module(50) ended on the remote node(id:3) failed. message:Module execution finished but output parameters (id: 11) not defined
+5. <answer id='111' status='0' msg='could not find process woth this name'/>
+6. 2007/08/26 19:31:44:785 [common][DiscompServer]: Creating new calculating process with name: ????
+why ??? I specify normal name dsat
+7. communcatior. Couldn't stop process. Reason: could not find process woth this name
+
+
+
+should but output parameter!
+
+dont' execute failed module on each node. ??? just 
+execute on the first three?? or not?
+
+
+why NOT DONE: Stage:0, mod_num:0
+calls too much times?
+
+also to log file how to write that sends filelist. not file?
+because it's dublicated many times
+
+
+
+почему в лог файле процесса нет сообщенимй об ошибках типа
+2007/08/26 19:58:34:952 [common]      Parameter (id:13, name:time)
+2007/08/26 19:58:34:953 [error]   Could't open file /home/discomp/discomp/server//modules/dsat_split/module.xml for reading
+Лучше по-другому. Почему после инициализации плана. он не пишет типа нема пока свободных узлов
+
+
+list_stop_count - is 1
+and parallel_list_parameter is set.
+ res files removed. but time list file isnt' removed. why???
+
+check module MD5 before start or on client init stage
+
+
+filesending for getsat too slow. from server to node
+
+
+1. начать работать над анализатором олега.
+1. сделать класс DiscompServerPlugin
+  в него он пусть пихает все что нужно. хотя что там нужно? не понятно...
+
+Urgent:
+Clean code
+	-1. discomp_module_parameter!!!!   remove clear_before_destroy
+	0. discomp_server_communicator
+	1. first  process_stage.cpp process_stage.h
+	2. process_controlpoint.cpp  process_controlpoint.h
+	30. server communicator move to communicator
+	3. server_communicator.cpp server_communicator.h
+	4. server_communicator_thread.cpp server_communicator_thread.h
+	5. server.cpp server.h
+	6. process.cpp process.h
+	7. node.cpp node.h
+	8. somewhere defined #define GRIDPLUGIN_H...
+Server
+	Log
+		3. need to write node messages to the log/process_1_name_node_1_ip.txt
+	Config 
+		1. conmfiguration. specify paths where is storied modules, processes and logs
+	Process.
+		1. add info about process. add somewhere server_module defenition
+
+	Module execution
+		6. otkazoustichivost'.
+		esli kakoi-to movul poshitalsya nekorrektno..
+		dajeesli uzel ego schitavshii otrubaetsya, to module vse ravno ne pereschitivaetsya
+
+	process.xml. 
+		1. add flag to use control points or not.
+		2. add commands before start and after end calculation process???
+	Server config
+		to the server conf add value - allowed communicator IP
+		also. from which system account can be executed or some login/pass ??? maybe
+
+
+Not urgent
+----------------------------------------------------------------
+Client
+	5. get std output!!! and save it to the file
+
+User usage
+	1. console. make good usage help (main.cpp). and command line parameters
+Clinet.
+	if client disconnected when try to connect every 3 minutes
+
+For parameters.
+remove name!
+soewhere it's mistaken with name.
+somewhere used name. somwwhere dfilename. it's sucks
+
+
+New features
+-------------------------------------------------
+Statistics 
+	1. statisitcs. module execution time, processor usage, etc.
+	network statistics!!!!
+
+Updates...
+
+Web frontend
+	1. show current processes. info about current processes, current stage.etc
+	2. need to have possibility to view input and output parameters
+	3. start/restart grid_server from web interface
+	4. statistics
+
+
+
+Bugs
+-----------------------------------------------
+	Destructors!!!! bug.
+	when for ( int i=0; i < discomp_clients_list.size(); i++ ) {
+	I've resize discomp_clients_list 
+	//and node disconnect
+
+	Thread destructir . don't use trerminate
+	check all thread destructors
+
+	In all connect how to send parameters like string, etc.
+
+	4. if output file cannot be deleted - than don't run this module on the client.
+	   how to work if file is locked?
+	   //it will be fixed when module will be executed evry time in the new directory
+
+Protocol 
+	2. XML Processing errors when connecting new client - destroy socket after that.
+	    destroy every time if somthiun in protocol wrong
+
+Memory leaks
+	1. in the socket.cpp clear DomNode by executing  rootNode.clear();
+	or how?
+	2. check that from QSocket messages peredautsya po signalam v roditel'skie klassi bez proebov v pamyati
+	processAnswerFromRemoteHost_signal( xml_data_str ); !!!
+	this string constructed in this class. where it's cleared?
+	как вообще удаляются строки? создаются в одной функции. передаются другой по ссылке. где удаляются?
+
+
+Bugs
+
+//after stop server when he do somthing
+/after terminate client (Ctrel +c ) too
+Qt has caught an exception thrown from an event handler. Throwing
+exceptions from an event handler is not supported in Qt. You must
+reimplement QApplication::notify() and catch all exceptions there.
+
+
+	Server Threads.
+		Чо-то он у меня нихуя не потоковый получился.
+		когда нагрузка ахуйная discomp_nodes_list вооюзе по пол часа выполняется.
+		висит тока на одном проце, etc.
+		http://doc.trolltech.com/4.1/qthread.html#exec
+		http://doc.trolltech.com/4.1/threads.html
+
+
+--------------------------------------------------------
+
+DONE
+1. check why after list stage compleate calculating process stoped
+6. in the grid process. after executuion complete it write Error: Execution of module(11) ended on the remote node(id:2) failed.
+5.[fixed] check why image not displayed on the client side
+11. change param:current_dir to param:module_dir
+2. on the client side. some time it trying to send file many times. it looped
+10. konus. number of decombosition should be configurable. executable file can be passed as parameter
+13. decomposition 20 - konus_6.in: ï¿½ï¿½- 1 -2.98023e-08000000E+00 -2.98023e-080000
+14. URGENT! when clear parameters on the client side set list size to null too!
+14. cannot start two process with same name.
+13. separate input and output parameters in the processes dir. it should be in and out dir. and search parameter defenition should be in theboth dirs.
+    after starting claclulation process. remove all parameters for out dir
+    12. module execution: clear input&ouput paramters. if some fail then emmit signal that module cannot be started
+    16.start from stage (for breakpoints)
+    7. in the grid process parameters. separate input and output parameters. and clear all output parameters before start grid process
+    17.possibility for delete task from process queue
+    19. grid_client - unix console version. done
+    22. server bug. konus. some time after sending all files, for some file not emmited signal that file sending done
+    23. control point for server (processes/test/controlpoint.xml)
+    26. grid client. mvs-1000. possibility for bind twice ports(5713, 5714)
+    21. create a tool for communicate with server
+    27. removed modules/modules.xml
+
+
+	!1.передаелать process.xml (root node больше не plan)
+	!2. CLOSE FILE HANDLE IN THE SOCKET AFTER CONNECTION DESTROYING.
+	!   because file after that cannot be deleted.
+	!3. запуск/остановка/осчистка модулей.
+	!4. exceptions. add max execution time to the module specifications and check if in this time we don't receive result,
+	!send to node stop calculation. and give it to other node.
+	!2. возвращать серверу статус о выполнении (error_msg)
+
+	!2. логи всегда очищаются при старте? добавить в конфиг опцию переписывать логи(очищать)
+
+	!2. cleint. when start. run module->clean() for clean all modules parameters
+	!1.Securuty
+	!	1. checks that file writing in the client dir in the socket.cpp
+	!2. config.h for all
+	1. add tabstops and other vim information to the each file
+	!2. don't specify name. as name send hostname
+	!1. in the log. make that log otstup sleva bil odinakovii.
+	! (Should be checked)Tummy Friday 15 June 2007 12:53:28а есть команда, чтобы посмотреть, какие именно файлы сейчас считаются на узлах? а то я захожу на сами узлы, там видно только res файл - т.е. текущие данные счета, а что считается - не видно
+	
+	!!! run modules on the client side in the temporary directory
+	!!! multiprocessors support for client side. in the config (CPUCount)
+
+	!server stop. send kill hup signal. wait. while not destructed
+	!client. destruct all clients when HYP signal
+	!if client on the clister in the shared dir. what will be with log? error.log client.log. (Added hostname prefix)
+	!don't show error message when communicator disconnect
+	!kuda ischezaet starii process log file???
+	!after starting claclulation process. remove all parameters output dir
+	!check plan and nmodules. !list atameter should be %1 or * ???
+	!constant parameters on the client side 
+	!0.Threads. check file sending. maybe do it as signal/slot too
+	!1. rewrite output parametes by input  if it's changed in the calculation process
+	!! res.original (res24 moved to res21, etc.)
+	!need to set dirs where located modules and logs dir (LogDirectory, ModulesDirectory)
+	!after finishing module execution temp dir is not deleted!
+	!2. if module execution segmentation failed. or user stop it. i.e. if programm exit code not 1. when return failed.
+
+	MD5 now not used OpenSSL
+	communicator. good usage command line arguments. formated output, etc.

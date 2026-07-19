@@ -1,0 +1,65 @@
+# === Version control metadata (legacy SVN) ===
+.svn/
+
+# === Build output ===
+obj/
+.deps/
+.libs/
+*.o
+*.lo
+*.la
+*.Plo
+*.Po
+*.slo
+*.a
+*.so
+*.so.*
+*.sl
+*.dylib
+*.dll
+*.jar
+
+# Compiled binaries / install dir
+bin/
+*.out
+*.exe
+
+# === Runtime / debug junk ===
+core
+core.*
+core:*
+*.out-*
+*.rep-*
+machinefile-*
+*.log
+tmp.txt
+
+# === Backups ===
+*.old
+*.old2
+*.orig
+*.bak
+*~
+
+# === Third-party vendored sources & build trees (fetched, not our sources) ===
+src/client/tmp/
+src/client/sigar/lib/
+
+# === Generated documentation ===
+src/doc/html/
+
+# === Misc scratch files (build-log dumps, numbered scratch copies) ===
+src/client/1
+src/client/2
+src/client/3
+src/client/1.cpp
+src/client/\
+src/server/1
+src/rpc_client/file
+
+# === Archives ===
+*.tar
+*.tar.gz
+*.tgz
+*.tar.bz2
+*.zip

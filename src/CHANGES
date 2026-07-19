@@ -1,0 +1,4 @@
+1.filepattern now should contain %1
+list parameter pattern shouldn't contain anything after %1 pattern
+
+2. Modules md5 sum checks for update module mechanizm
