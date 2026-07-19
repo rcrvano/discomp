@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<parameters>
+	<param>
+		<name>decompose</name>
+		<type>file</type>
+		<filename>decompose_num</filename>
+	</param>
+	<param>
+		<name>list_input</name>
+		<type>filelist</type>
+		<filepattern>input%1</filepattern>
+	</param>
+	<param>
+		<name>list_output</name>
+		<type>filelist</type>
+		<filepattern>output%1</filepattern>
+	</param>
+	<param>
+		<name>result</name>
+		<type>file</type>
+		<filename>result</filename>
+	</param>
+</parameters>

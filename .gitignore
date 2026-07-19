@@ -26,7 +26,7 @@ bin/
 
 # === Runtime / debug junk ===
 core
-core.*
+core.[0-9]*
 core:*
 *.out-*
 *.rep-*
@@ -56,6 +56,23 @@ src/client/1.cpp
 src/client/\
 src/server/1
 src/rpc_client/file
+
+# === Web interface (PHP) — keep app sources only ===
+web/1.tgz
+web/results.tgz
+web/result.csv
+web/logs/
+web/temp/
+web/*.old/
+web/*.from_svn/
+web/interface/extjs/
+web/interface.old/
+web/interface.from_svn/
+web/components.old/
+web/components.from_svn/
+*.tpl~
+*~
+*.swp
 
 # === Archives ===
 *.tar

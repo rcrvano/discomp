@@ -1,0 +1,1 @@
+C:\Discomp\server\bin\discomp_rpc_client.bat --stopprocess prime.scheme1 

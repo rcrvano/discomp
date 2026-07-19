@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<process>
+	<stages start_stage='0' controlpoints='1'>
+		<stage>
+			<listmodule name='solver'/>
+		</stage>
+	</stages>
+</process>

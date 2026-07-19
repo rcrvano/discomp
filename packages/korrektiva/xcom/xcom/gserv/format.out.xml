@@ -1,0 +1,7 @@
+<task name="<!Task>" desc="<!TaskDesc>" runtime="<!WorkTime>" completed="<!ReadyPartX>">
+<portions total="<!NP>" done="<!processedPortionsCount>" last="<!lastAskedPortion>"/>
+<performance peak="<!appPerf>" efficiency="<!KPD>"/>
+<nodes total="<!RealProcs>" working="<!RealWorking>" communicating="<!ConnectedHosts>">
+<!Tablex>
+</nodes>
+</task>

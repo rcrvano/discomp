@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<process>
+	<plugin src='plugin.js'/>
+
+	<stages start_stage='0' controlpoints='0'>
+		<stage onStart="stage1Start()" onFinish="stage1Finish()">
+			<module name='decompose' onStart="moduleStart('decompose')" onFinish="moduleFinish('decompose')" onFailed="moduleFailed('decompose')"/>
+		</stage>
+		<stage>
+			<listmodule name='solver' max_time='12'/>
+		</stage>
+		<stage>
+			<module name='analyze'/>
+		</stage>
+	</stages>
+</process>

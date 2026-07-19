@@ -1,0 +1,64 @@
+<stat>
+ <sysinfo version="2.6.37" arch="x86_64" description="Gentoo 2.0.1" hostname="node-1.blackford.icc.ru" name="Linux"/>
+ <uptime sec="6039143" readable="69 days, 21:32"/>
+ <loadavg avg1="0.16" avg2="0.36" avg3="0.39"/>
+ <cpu cores_per_socket="4" total_cores="8" cache_size="4096" model="Xeon" total_sockets="2" idle_p="98" wait_p="0" sys_p="0" mhz="2327" vendor="Intel" user_p="0" nice_p="0" used_p="2">
+  <core num="0" idle_p="100" wait_p="0" sys_p="0" user_p="0" nice_p="0" used_p="0"/>
+  <core num="1" idle_p="98" wait_p="0" sys_p="0" user_p="1" nice_p="0" used_p="2"/>
+  <core num="2" idle_p="98" wait_p="0" sys_p="0" user_p="0" nice_p="0" used_p="2"/>
+  <core num="3" idle_p="98" wait_p="0" sys_p="0" user_p="0" nice_p="0" used_p="2"/>
+  <core num="4" idle_p="100" wait_p="0" sys_p="0" user_p="0" nice_p="0" used_p="0"/>
+  <core num="5" idle_p="99" wait_p="0" sys_p="0" user_p="1" nice_p="0" used_p="1"/>
+  <core num="6" idle_p="100" wait_p="0" sys_p="0" user_p="0" nice_p="0" used_p="0"/>
+  <core num="7" idle_p="97" wait_p="0" sys_p="0" user_p="0" nice_p="0" used_p="3"/>
+ </cpu>
+ <memory actual_used_p="59" free_p="2" total="8375967744" used="8233406464" used_p="98" actual_used="5006655488"/>
+ <swap free_p="100" total="5009190912" used="32104448" used_p="0"/>
+ <filesystems write_bytes_psec="45056" read_bytes_psec="0" free_p="56" total="5407937046" used_p="43" used="1897559842">
+  <device reads_psec="0" writes="123451929" reads="7627474" path="/" write_bytes_psec="0" writes_psec="0" read_bytes_psec="0" read_bytes="45492606976" rtime="19904430" type="local" free_p="15" write_bytes="671683723264" fs="jfs" total="48803136" used="41653208" used_p="85" wtime="4005699192"/>
+  <device reads_psec="0" writes="244" reads="3671" path="/boot" write_bytes_psec="0" writes_psec="0" read_bytes_psec="0" read_bytes="180185088" rtime="4300" type="local" free_p="27" write_bytes="312320" fs="ext2" total="482214" used="354922" used_p="73" wtime="23650"/>
+  <device reads_psec="0" writes="131726" reads="645002" path="/store" write_bytes_psec="0" writes_psec="0" read_bytes_psec="0" read_bytes="32638649344" rtime="3123550" type="local" free_p="22" write_bytes="1197785088" fs="jfs" total="731384120" used="572107660" used_p="78" wtime="74275260"/>
+  <device reads_psec="0" writes="1649" reads="2964" path="/storefc" write_bytes_psec="0" writes_psec="0" read_bytes_psec="0" read_bytes="11820032" rtime="26850" type="local" free_p="99" write_bytes="8253440" fs="jfs" total="1855379136" used="24613504" used_p="1" wtime="7090"/>
+  <device reads_psec="0" writes="46477662" reads="38977310" path="/home" write_bytes_psec="45056" writes_psec="11" read_bytes_psec="0" read_bytes="296422557696" rtime="143642810" type="local" free_p="41" write_bytes="1496965730304" fs="jfs" total="731384120" used="435575508" used_p="59" wtime="2856861464"/>
+  <device path="/store/nodes.tmp/auto/node-2" type="remote" free_p="38" fs="nfs" total="102025216" used="63407104" used_p="62"/>
+  <device path="/store/nodes.tmp/auto/node-4" type="remote" free_p="65" fs="nfs" total="102025216" used="35788800" used_p="35"/>
+  <device path="/store/nodes.tmp/auto/node-5" type="remote" free_p="65" fs="nfs" total="102025216" used="36507648" used_p="35"/>
+  <device path="/store/nodes.tmp/auto/node-6" type="remote" free_p="53" fs="nfs" total="102025216" used="47993856" used_p="47"/>
+  <device path="/store/nodes.tmp/auto/node-7" type="remote" free_p="71" fs="nfs" total="102025216" used="30219264" used_p="29"/>
+  <device path="/store/nodes.tmp/auto/node-8" type="remote" free_p="59" fs="nfs" total="102025216" used="42118144" used_p="41"/>
+  <device path="/store/nodes.tmp/auto/node-9" type="remote" free_p="29" fs="nfs" total="102025216" used="72532992" used_p="71"/>
+  <device path="/store/nodes.tmp/auto/node-10" type="remote" free_p="20" fs="nfs" total="102025216" used="81813504" used_p="80"/>
+  <device path="/store/nodes.tmp/auto/node-11" type="remote" free_p="53" fs="nfs" total="102025216" used="48456704" used_p="47"/>
+  <device path="/store/nodes.tmp/auto/node-12" type="remote" free_p="51" fs="nfs" total="102025216" used="50808832" used_p="49"/>
+  <device path="/store/nodes.tmp/auto/node-13" type="remote" free_p="85" fs="nfs" total="102025216" used="15964160" used_p="15"/>
+  <device path="/store/nodes.tmp/auto/node-14" type="remote" free_p="64" fs="nfs" total="102025216" used="36753408" used_p="36"/>
+  <device path="/store/nodes.tmp/auto/node-15" type="remote" free_p="85" fs="nfs" total="102025216" used="15782912" used_p="15"/>
+  <device path="/store/nodes.tmp/auto/node-16" type="remote" free_p="59" fs="nfs" total="102025216" used="42133504" used_p="41"/>
+  <device path="/store/nodes.tmp/auto/node-17" type="remote" free_p="84" fs="nfs" total="102025216" used="16594944" used_p="16"/>
+  <device path="/store/nodes.tmp/auto/node-18" type="remote" free_p="32" fs="nfs" total="102025216" used="69824512" used_p="68"/>
+  <device path="/store/nodes.tmp/auto/node-19" type="remote" free_p="65" fs="nfs" total="102025216" used="35709952" used_p="35"/>
+  <device path="/store/nodes.tmp/auto/node-20" type="remote" free_p="62" fs="nfs" total="102025216" used="39326720" used_p="38"/>
+  <device path="/store/nodes.tmp/auto/node-21" type="remote" free_p="78" fs="nfs" total="102025216" used="22934528" used_p="22"/>
+  <device path="/store/nodes.tmp/auto/node-22" type="remote" free_p="82" fs="nfs" total="102025216" used="18583552" used_p="18"/>
+ </filesystems>
+ <network tx_bytes_psec="67771" rx_bytes_psec="66571">
+  <interface hwaddr="00:00:00:00:00:00" metric="1" tx_overruns="0" rx_overruns="0" name="lo" rx_errors="0" tx_packets="633569044" rx_bytes="167837546577" ip="127.0.0.1" mtu="16436" tx_bytes_psec="7955" tx_collisions="0" rx_packets="633569044" rx_bytes_psec="7955" tx_errors="0" tx_bytes="167837546577" rx_frame="0" rx_dropped="0" type="Local Loopback" tx_dropped="0" tx_carrier="0"/>
+  <interface hwaddr="00:04:23:DD:AB:5E" metric="1" tx_overruns="0" rx_overruns="0" name="eth0" rx_errors="0" tx_packets="947453519" rx_bytes="1500188798578" ip="192.168.10.135" mtu="1500" tx_bytes_psec="45976" tx_collisions="0" rx_packets="1342189671" rx_bytes_psec="57423" tx_errors="0" primary="1" tx_bytes="369648627971" rx_frame="0" rx_dropped="2594" type="Ethernet" tx_dropped="0" tx_carrier="0"/>
+  <interface metric="1" ip="192.168.40.1" mtu="1500" type="Ethernet" name="eth0:1" hwaddr="00:04:23:DD:AB:5E"/>
+  <interface hwaddr="00:04:23:DD:AB:5F" metric="1" tx_overruns="0" rx_overruns="0" name="eth1" rx_errors="0" tx_packets="10837749" rx_bytes="9801851211" ip="192.168.50.1" mtu="1500" tx_bytes_psec="0" tx_collisions="0" rx_packets="56322753" rx_bytes_psec="386" tx_errors="0" tx_bytes="1147229936" rx_frame="0" rx_dropped="9853910" type="Ethernet" tx_dropped="0" tx_carrier="0"/>
+  <interface hwaddr="00:00:00:00:00:00" metric="1" tx_overruns="0" rx_overruns="0" name="ppp0" rx_errors="0" tx_packets="197657511" rx_bytes="77674129289" ip="84.237.30.103" mtu="1492" tx_bytes_psec="13840" tx_collisions="0" rx_packets="180665162" rx_bytes_psec="807" tx_errors="0" tx_bytes="86165199582" rx_frame="0" rx_dropped="0" type="Ethernet" tx_dropped="0" tx_carrier="0"/>
+  <interface hwaddr="00:04:23:A5:CE:02" metric="1" tx_overruns="0" rx_overruns="0" name="eth2" rx_errors="0" tx_packets="0" rx_bytes="0" ip="0.0.0.0" mtu="1500" tx_bytes_psec="0" tx_collisions="0" rx_packets="0" rx_bytes_psec="0" tx_errors="0" tx_bytes="0" rx_frame="0" rx_dropped="0" type="Ethernet" tx_dropped="0" tx_carrier="0"/>
+ </network>
+ <cputemp>
+  <core>39</core>
+  <core>38</core>
+  <core>36</core>
+  <core>35</core>
+  <core>40</core>
+  <core>37</core>
+  <core>36</core>
+  <core>38</core>
+ </cputemp>
+ <microtime>1334034718332</microtime>
+ <generation_mtime>40</generation_mtime>
+</stat>

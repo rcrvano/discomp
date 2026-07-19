@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<parameters>
+	<param>
+		<name>123</name>
+		<type>file</type>
+		<comment>123</comment>
+		<filename>123</filename>
+		<filepattern>123</filepattern>
+		<constant></constant>
+		<size>123</size>
+		<regexp></regexp>
+	</param>
+</parameters>

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<controlpoint process_plan_md5='2139c3bcc9fde3d0'>
+	<stage num='2'>
+		<module name='TestPackage.analyse' status='0'/>
+	</stage>
+</controlpoint>

@@ -1,0 +1,26 @@
+2010/03/30 03:58:54:906 [common]  Process initialization: prime.scheme1
+2010/03/30 03:58:54:906 [common]  Initializing stage 0
+2010/03/30 03:58:54:921 [common]  [Module: prime.decompose] Module initialization:
+2010/03/30 03:58:54:921 [common]  [Module: prime.decompose]   Input parameters
+2010/03/30 03:58:54:921 [common]  [Module: prime.decompose]     Parameter (name:max)
+2010/03/30 03:58:54:921 [common]  [Module: prime.decompose]     Parameter (name:count)
+2010/03/30 03:58:54:921 [common]  [Module: prime.decompose]   Output parameters
+2010/03/30 03:58:54:921 [common]  [Module: prime.decompose]     Parameter (name:input)
+2010/03/30 03:58:54:921 [common]  Initializing stage 1
+2010/03/30 03:58:54:921 [common]  [Module: prime.solver] Module initialization:
+2010/03/30 03:58:54:921 [common]  [Module: prime.solver]   Input parameters
+2010/03/30 03:58:54:921 [common]  [Module: prime.solver]     Parameter (name:input)
+2010/03/30 03:58:54:921 [common]  [Module: prime.solver]   Output parameters
+2010/03/30 03:58:54:937 [common]  [Module: prime.solver]     Parameter (name:result)
+2010/03/30 03:58:54:937 [common]  Controlpoints resume flag: 1
+2010/03/30 03:58:54:937 [common]  Resume calculating process from last control point
+2010/03/30 03:58:54:937 [common]  List parameter for module 'prime.solver' is 'input' (elements:10)
+2010/03/30 03:58:54:937 [common]  Last stage in control points file is 1. Process will be started from this stage
+2010/03/30 03:58:54:937 [common]  Restore modules state for stage: 1
+2010/03/30 03:58:54:953 [common]  Resume from controlpoints completed
+2010/03/30 03:58:54:953 [common]  Delete controlpoints file
+2010/03/30 03:58:54:953 [common]  Start contol points subsystem
+2010/03/30 03:58:54:953 [common]  Plan Initialized successfull
+2010/03/30 03:58:54:953 [common]  --------------------------------------------------
+2010/03/30 03:58:54:953 [common]  [Queue] Module prime.solver [element: 1] INITIALIZING for start on the node comp7:0 (id:0)
+2010/03/30 03:58:54:968 [common]  [Queue] Module prime.solver [element: 2] INITIALIZING for start on the node comp7:1 (id:1)

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module>
+	<info>
+		<name>solver</name>
+		<fullname></fullname>
+		<comment></comment>
+		<os></os>
+		<type></type>
+	</info>
+	<commands>
+		<start max_time='' stdout='' detached=''>./solver.sh</start>
+		<stop detached=''></stop>
+	</commands>
+	<parameters>
+		<input>
+			<param>
+				<name>gen_list</name>
+				<type>file</type>
+				<comment>Generated List</comment>
+				<filename>genlist.txt</filename>
+			</param>
+		</input>
+		<output>
+			<param>
+				<name>res_list</name>
+				<type>file</type>
+				<comment>Result list</comment>
+				<filename>reslist.txt</filename>
+			</param>
+		</output>
+	</parameters>
+</module>

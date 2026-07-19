@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<info>
+		<fullname>Test analyze</fullname>
+		<type>Shell script</type>
+		<os>Linux</os>
+	</info>
+	<commands>
+		<start>./analyze.sh</start>
+	</commands>
+	<parameters>
+		<input>
+			<param>
+				<name>list_output</name>
+				<type>filelist</type>
+				<filepattern>output%1</filepattern>
+			</param>
+		</input>
+		<output>
+			<param>
+				<name>result</name>
+				<type>file</type>
+				<filename>result</filename>
+			</param>
+		</output>
+	</parameters>
+</module>

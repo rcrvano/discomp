@@ -12,7 +12,17 @@ fact/rule bases rather than hard-coded C++.
 
 ## Components
 
-The C++ sources live under [`src/`](src/):
+### Repository layout
+
+| Path                | Description                                                                    |
+| ------------------- | ------------------------------------------------------------------------------ |
+| `src/`              | C++ sources of all core components (see below).                                |
+| `packages/`         | Computational packages — modules and schemes (korrektiva, montekarlo, vulnerability, petri, konus, prime, BIO, …). Definitions and scripts only; run results, solver dumps and binaries excluded. |
+| `web/`              | PHP web interface (dashboard / control panel). Uses Smarty; the vendored ExtJS framework is excluded. |
+| `communicator/`     | Cluster orchestration shell scripts (`bin/`) and config samples (`etc/`).      |
+| `start.sh` / `stop.sh` / `fix.sh` | Top-level launch / shutdown / maintenance helpers.               |
+
+### Core components (`src/`)
 
 | Directory              | Description                                                                 |
 | ---------------------- | --------------------------------------------------------------------------- |

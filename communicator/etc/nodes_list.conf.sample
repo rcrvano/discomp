@@ -1,0 +1,25 @@
+# +--------------------------------------------------------------------+
+# | Discomp : Distributed Calculating System of Modular Programming    |
+# +--------------------------------------------------------------------+
+# | Copyright (C) 2004-2007 ISDCT                                      |
+# | Institute of System Dynamics and Control Theory SB RAS             |
+# | Unauthorized reproduction is not allowed                           |
+# +--------------------------------------------------------------------+
+# | Author: Sidorov Ivan <ivan@sidorov.net> <ivan.sidorov@icc.ru>      |
+# +--------------------------------------------------------------------+
+
+# List of the cluster nodes. 
+# The hosts specified in this can be connected to server by server 
+# initiative (backconnect) with commands:
+# discomp_nodes_connect
+# or directly 
+# discomp_communicator --connect --hosts 192.168.10.97:5713
+#
+# You can specify host port number if it's differ than 5713. For ex.:
+# host-3:5716
+
+node-2
+node-3
+node-4
+node-5
+node-6

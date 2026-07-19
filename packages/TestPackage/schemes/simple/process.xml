@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<process>
+   <plugin src='plugin.js'/>	
+   <stages>
+	<stage>
+		<module name='decompose'/>
+	</stage>
+	<stage>
+		<listmodule onFinish='stop()' name='solver'/>
+	</stage>
+	<stage>
+		<module name='analyse'/>
+	</stage>
+   </stages>
+</process>

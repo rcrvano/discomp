@@ -1,0 +1,69 @@
+2009/06/04 19:39:01:591 [common]  Process initialization: test.scheme1
+2009/06/04 19:39:01:592 [common]  [DiscompAPI] Loading plugin: plugin.js
+2009/06/04 19:39:01:593 [common]  [DiscompAPI] [Log] You should see this message in the log when on process init stage
+2009/06/04 19:39:01:593 [common]  [DiscompAPI] [Log] Process dir is: /home/discomp/discomp/server/packages/test/processes/scheme1
+2009/06/04 19:39:01:594 [common]  [DiscompAPI] [Log] Current stage num: 0
+2009/06/04 19:39:01:594 [common]  [DiscompAPI] [Log] Process input parameters: 
+2009/06/04 19:39:01:594 [common]  Initializing stage 0
+2009/06/04 19:39:01:595 [common]     Event onStart: stage1Start()
+2009/06/04 19:39:01:595 [common]     Event onFinish: stage1Finish()
+2009/06/04 19:39:01:596 [common]  [Module: test.decompose] Module initialization:
+2009/06/04 19:39:01:596 [common]  [Module: test.decompose:op1]   Input parameters
+2009/06/04 19:39:01:596 [common]  [Module: test.decompose:op1]     Parameter (name:decompose)
+2009/06/04 19:39:01:597 [common]  [Module: test.decompose:op1]   Output parameters
+2009/06/04 19:39:01:597 [common]  [Module: test.decompose:op1]     Parameter (name:list_input)
+2009/06/04 19:39:01:597 [common]  [Module: test.decompose:op1]   Event onStart: moduleStart(500)
+2009/06/04 19:39:01:597 [common]  [Module: test.decompose:op1]   Event onFinish: moduleFinish('decompose')
+2009/06/04 19:39:01:598 [common]  Initializing stage 1
+2009/06/04 19:39:01:599 [common]  [Module: test.solver] Module initialization:
+2009/06/04 19:39:01:599 [common]  [Module: test.solver]   Input parameters
+2009/06/04 19:39:01:599 [common]  [Module: test.solver]     Parameter (name:list_input)
+2009/06/04 19:39:01:599 [common]  [Module: test.solver]   Output parameters
+2009/06/04 19:39:01:600 [common]  [Module: test.solver]     Parameter (name:list_output)
+2009/06/04 19:39:01:600 [common]  Initializing stage 2
+2009/06/04 19:39:01:601 [common]  [Module: test.analyze] Module initialization:
+2009/06/04 19:39:01:601 [common]  [Module: test.analyze]   Input parameters
+2009/06/04 19:39:01:601 [common]  [Module: test.analyze]     Parameter (name:list_output)
+2009/06/04 19:39:01:602 [common]  [Module: test.analyze]   Output parameters
+2009/06/04 19:39:01:602 [common]  [Module: test.analyze]     Parameter (name:result)
+2009/06/04 19:39:01:602 [common]  Controlpoints resume flag: 0
+2009/06/04 19:39:01:603 [common]  Clear output parameters directory
+2009/06/04 19:39:01:604 [common]  Delete controlpoints file
+2009/06/04 19:39:01:605 [common]  Start contol points subsystem
+2009/06/04 19:39:01:605 [common]  Plan Initialized successfull
+2009/06/04 19:39:01:605 [common]  --------------------------------------------------
+2009/06/04 19:39:01:606 [common]  [DiscompAPI] [Log] Started module 500. Current stage is: 0
+2009/06/04 19:39:01:607 [common]  [Queue] Module test.decompose:op1 INITIALIZING for start on the node irc-1.mvs.icc.ru:0 (id:0)
+2009/06/04 19:39:01:682 [common]  [Queue] Module test.decompose:op1 successfully STARTED on the node irc-1.mvs.icc.ru:0 (id:0)
+2009/06/04 19:39:01:909 [common]  [Queue] Module test.decompose:op1 successfully FINISHED on the node irc-1.mvs.icc.ru:0 (id:0)
+2009/06/04 19:39:01:909 [common]  [DiscompAPI] [Log] Finished module decompose
+2009/06/04 19:39:01:911 [common]  Stage 0 finished
+2009/06/04 19:39:01:911 [common]  [DiscompAPI] [Log] Stage 0 finished
+2009/06/04 19:39:01:911 [common]  --------------------------------------------------
+2009/06/04 19:39:01:912 [common]  Stage: 1
+2009/06/04 19:39:01:913 [common]  List parameter for module 'test.solver' is 'list_input' (elements:4)
+2009/06/04 19:39:01:914 [common]  [Queue] Module test.solver [element: 1] INITIALIZING for start on the node irc-1.mvs.icc.ru:0 (id:0)
+2009/06/04 19:39:01:916 [common]  [Queue] Module test.solver [element: 2] INITIALIZING for start on the node irc-1.mvs.icc.ru:2 (id:1)
+2009/06/04 19:39:01:918 [common]  [Queue] Module test.solver [element: 3] INITIALIZING for start on the node irc-1.mvs.icc.ru:1 (id:2)
+2009/06/04 19:39:01:919 [common]  [Queue] Module test.solver [element: 4] INITIALIZING for start on the node irc-1.mvs.icc.ru:3 (id:4)
+2009/06/04 19:39:02:003 [common]  [Queue] Module test.solver [element: 1] successfully STARTED on the node irc-1.mvs.icc.ru:0 (id:0)
+2009/06/04 19:39:02:015 [common]  [Queue] Module test.solver [element: 2] successfully STARTED on the node irc-1.mvs.icc.ru:2 (id:1)
+2009/06/04 19:39:02:024 [common]  [Queue] Module test.solver [element: 4] successfully STARTED on the node irc-1.mvs.icc.ru:3 (id:4)
+2009/06/04 19:39:02:035 [common]  [Queue] Module test.solver [element: 3] successfully STARTED on the node irc-1.mvs.icc.ru:1 (id:2)
+2009/06/04 19:39:03:060 [common]  [Queue] Module test.solver [element: 1] successfully FINISHED on the node irc-1.mvs.icc.ru:0 (id:0)
+2009/06/04 19:39:03:062 [common]  [Queue] No more modules for execution on the current stage
+2009/06/04 19:39:05:061 [common]  [Queue] Module test.solver [element: 2] successfully FINISHED on the node irc-1.mvs.icc.ru:2 (id:1)
+2009/06/04 19:39:06:026 [common]  [Queue] No more modules for execution on the current stage
+2009/06/04 19:39:06:027 [common]  [Queue] Module test.solver [element: 3] successfully FINISHED on the node irc-1.mvs.icc.ru:1 (id:2)
+2009/06/04 19:39:06:029 [common]  [Queue] No more modules for execution on the current stage
+2009/06/04 19:39:06:082 [common]  [Queue] Module test.solver [element: 4] successfully FINISHED on the node irc-1.mvs.icc.ru:3 (id:4)
+2009/06/04 19:39:06:083 [common]  Stage 1 finished
+2009/06/04 19:39:06:083 [common]  --------------------------------------------------
+2009/06/04 19:39:06:084 [common]  Stage: 2
+2009/06/04 19:39:06:086 [common]  [Queue] Module test.analyze INITIALIZING for start on the node irc-1.mvs.icc.ru:0 (id:0)
+2009/06/04 19:39:06:312 [common]  [Queue] Module test.analyze successfully STARTED on the node irc-1.mvs.icc.ru:0 (id:0)
+2009/06/04 19:39:06:399 [common]  [Queue] Module test.analyze successfully FINISHED on the node irc-1.mvs.icc.ru:0 (id:0)
+2009/06/04 19:39:06:400 [common]  Stage 2 finished
+2009/06/04 19:39:06:400 [common]  --------------------------------------------------
+2009/06/04 19:39:06:400 [common]  Calculating process completed
+2009/06/04 19:39:06:404 [common]  Delete controlpoints file

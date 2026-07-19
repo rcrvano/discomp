@@ -1,0 +1,2 @@
+2010/03/30 03:58:55:062 [common]  Module 'prime.solver' prepared for execution. Send input files
+2010/03/30 03:58:55:140 [common]  [File sending] Complete. File:C:\Discomp\server\packages\prime\schemes\scheme1\parameters\output\input1.txt

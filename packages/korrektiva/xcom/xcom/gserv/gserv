@@ -1,0 +1,37 @@
+#!/bin/sh
+
+# Modify following line for appropriate Java installation path
+# By default it points to ~/xcom/gserv/jre
+JAVA_INSTALL_PATH="`pwd`/jre"
+export JAVA_INSTALL_PATH
+
+LD_LIBRARY_PATH=`pwd`
+export LD_LIBRARY_PATH
+
+COMM="$JAVA_INSTALL_PATH/bin/java -cp bin GServ"
+
+if [ -x nodes_reset ]
+then
+  ./nodes_reset
+fi
+
+TASK=`grep 'task' gserv.ini|tr -d ' '|grep 'task='|cut -f 2 -d '='`
+INITIALIZE="../tasks/$TASK/server/initialize"
+FINALIZE="../tasks/$TASK/server/finalize"
+
+if [ -x $INITIALIZE ]
+then
+  $INITIALIZE
+fi
+
+if [ "$1" = "-l" ]
+then
+  $COMM 2>"logx/`date '+%Y-%m-%d %H-%M-%S'`" 1>&2
+else
+  $COMM
+fi
+
+if [ -x $FINALIZE ]
+then
+  $FINALIZE
+fi

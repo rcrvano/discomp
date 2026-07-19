@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<info>
+		<name>konus_analyzer</name>
+		<fullname>Analyzer</fullname>
+		<version>1</version>
+		<comment>Generate set of approachibility graph</comment>
+		<language>PHP</language>
+		<type>binary</type>
+		<os>Linux</os>
+	</info>
+	<commands>
+		<start>./graph.php</start>
+	</commands>
+	<parameters>
+		<input>
+			<param>
+				<name>konus.out</name>
+				<type>filelist</type>
+				<size></size>
+				<filepattern>konus_%1.out</filepattern>
+				<comment>Variants of output parametes of konus</comment>
+			</param>
+
+		</input>
+		<output>
+			<param>
+				<name>graph</name>
+				<type>file</type>
+				<filename>result.png</filename>
+				<comment>Set of approachibility</comment>
+			</param>
+		</output>
+	</parameters>
+</module>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<info>
+		<name> Prime solver </name>
+		<version>1</version>
+		<comment></comment>
+		<language></language>
+		<type>binary</type>
+		<os>win32</os>
+	</info>
+	<commands>
+		<start stdout='result.txt'>solver.exe {PARAM_VALUE:input}</start>
+	</commands>
+	<parameters>
+		<input>
+			<param>
+				<name>input</name>
+				<type>file</type>
+				<filename>input.txt</filename>
+			</param>
+		</input>
+		<output>
+			<param>
+				<name>result</name>
+				<type>file</type>
+				<filename>result.txt</filename>
+			</param>
+		</output>
+	</parameters>
+</module>

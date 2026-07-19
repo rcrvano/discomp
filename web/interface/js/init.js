@@ -1,0 +1,2 @@
+initDocumentEventListeners();
+AjaxCommunications.Init();

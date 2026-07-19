@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<info>
+		<name>konus_base</name>
+		<fullname>Konus</fullname>
+		<version>1</version>
+		<comment>Base KONUS app</comment>
+		<language>C</language>
+		<type>exe</type>
+		<os>win32</os>
+	</info>
+	<commands>
+		<start detached='1'>start.bat {MODULE_DIR}</start>
+	</commands>
+	<parameters>
+		<input>
+			<param>
+				<name>konus.in</name>
+				<type>file</type>
+				<filename>konus.in</filename>
+				<comment>Variant of input parametes for konus</comment>
+			</param>
+		</input>
+		<output>
+			<param>
+				<name>konus.out</name>
+				<type>file</type>
+				<filename>result.out</filename>
+				<comment>Result of konus calculating</comment>
+			</param>
+		</output>
+	</parameters>
+</module>

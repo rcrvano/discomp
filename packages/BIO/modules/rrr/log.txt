@@ -1,0 +1,412 @@
+05-08 12:47:21.489: D/-heap(11492): GC_FOR_ALLOC freed 54K, 20% free 6470K/8031K, paused 69ms
+05-08 12:47:21.589: D/-heap(11492): GC_CONCURRENT freed 1K, 15% free 9540K/11171K, paused 2ms+2ms
+05-08 12:47:21.989: I/Adreno200-EGLSUB(11492): <ConfigWindowMatch:2081>: Format RGBA_8888.
+05-08 12:47:22.069: D/memalloc(11492): /dev/pmem: Mapped buffer base:0x51936000 size:1843200 offset:1228800 fd:67
+05-08 12:47:22.419: D/memalloc(11492): /dev/pmem: Mapped buffer base:0x51df8000 size:2457600 offset:1843200 fd:70
+05-08 12:47:23.239: D/memalloc(11492): /dev/pmem: Unmapping buffer base:0x51936000 size:1843200 offset:1228800
+05-08 12:47:23.239: D/memalloc(11492): /dev/pmem: Unmapping buffer base:0x51df8000 size:2457600 offset:1843200
+05-08 12:47:23.359: D/WebSettings(11492): mDataPath: /data/data/be.artwhere.proximediademo
+05-08 12:47:23.439: V/CACHE(11492): Database DIR: /data/data/be.artwhere.proximediademo/files
+05-08 12:47:23.439: V/CACHE(11492): CACHE DIR: /data/data/be.artwhere.proximediademo/cache
+05-08 12:47:23.459: V/CACHE(11492): MODE
+05-08 12:47:23.479: V/CACHE(11492): ONLINE
+05-08 12:47:23.479: V/CACHE(11492): CLEAR
+05-08 12:47:23.539: V/CACHE(11492): LOAD
+05-08 12:47:23.539: V/CACHE(11492): LOAD AGAIN
+05-08 12:47:23.609: V/CACHE(11492): ONLINE
+05-08 12:47:23.719: V/chromium(11492): external/chromium/net/host_resolver_helper/host_resolver_helper.cc:66: [0508/124723:INFO:host_resolver_helper.cc(66)] DNSPreResolver::Init got hostprovider:0x4f834230
+05-08 12:47:23.719: V/chromium(11492): external/chromium/net/base/host_resolver_impl.cc:1515: [0508/124723:INFO:host_resolver_impl.cc(1515)] HostResolverImpl::SetPreresolver preresolver:0x01719e08
+05-08 12:47:23.729: I/Adreno200-EGLSUB(11492): <ConfigWindowMatch:2081>: Format RGBA_8888.
+05-08 12:47:23.739: D/memalloc(11492): /dev/pmem: Mapped buffer base:0x52350000 size:1843200 offset:1228800 fd:86
+05-08 12:47:23.799: D/(11492): external/chromium/net/socket/tcp_fin_aggregation_factory.cc: libtcpfinaggr.so successfully loaded
+05-08 12:47:23.799: D/(11492): external/chromium/net/socket/tcp_fin_aggregation_factory.cc,: TCP Fin Aggregation initializing method was found in libtcpfinaggr.so
+05-08 12:47:23.799: D/TCPFinAggregation(11492): system property net.tcp.fin.aggregation was set
+05-08 12:47:23.799: D/TCPFinAggregation(11492): system property net.tcp.fin.aggregation.wait was set, value: 20
+05-08 12:47:23.799: D/TCPFinAggregation(11492): system property net.tcp.fin.aggregation.close was set, value: 300
+05-08 12:47:23.799: D/TCPFinAggregation(11492): system property net.close.unused.sockets was set, value: 1
+05-08 12:47:23.799: D/TCPFinAggregation(11492): Failed to get network status! received ret: -2
+05-08 12:47:23.819: V/WebRequest(11492): WebRequest::WebRequest, setPriority = 1
+05-08 12:47:24.039: D/memalloc(11492): /dev/pmem: Mapped buffer base:0x52712000 size:2457600 offset:1843200 fd:98
+05-08 12:47:24.269: V/chromium(11492): external/chromium/net/disk_cache/hostres_plugin_bridge.cc:52: [0508/124724:INFO:hostres_plugin_bridge.cc(52)] StatHubCreateHostResPlugin initializing...
+05-08 12:47:24.269: V/chromium(11492): external/chromium/net/disk_cache/hostres_plugin_bridge.cc:57: [0508/124724:INFO:hostres_plugin_bridge.cc(57)] StatHubCreateHostResPlugin lib loaded
+05-08 12:47:24.269: V/chromium(11492): external/chromium/net/disk_cache/hostres_plugin_bridge.cc:63: [0508/124724:INFO:hostres_plugin_bridge.cc(63)] StatHubCreateHostResPlugin plugin connected
+05-08 12:47:24.269: V/chromium(11492): external/chromium/net/http/http_cache.cc:1173: [0508/124724:INFO:http_cache.cc(1173)] HttpCache::OnBackendCreated HostStat created
+05-08 12:47:24.279: E/chromium(11492): external/chromium/net/disk_cache/stat_hub.cc:190: [0508/124724:ERROR:stat_hub.cc(190)] StatHub::Init - App be.artwhere.proximediademo isn't supported.
+05-08 12:47:24.279: E/chromium(11492): external/chromium/net/disk_cache/stat_hub.cc:190: [0508/124724:ERROR:stat_hub.cc(190)] StatHub::Init - App be.artwhere.proximediademo isn't supported.
+05-08 12:47:24.329: D/memalloc(11492): /dev/pmem: Mapped buffer base:0x5296a000 size:4198400 offset:3584000 fd:111
+05-08 12:47:30.059: D/(11492): ++++++++++++++++++++++Setting up the canvas ID to be 0
+05-08 12:47:30.069: D/(11492): ++++++++++++++++++++++Setting up the canvas ID to be 1
+05-08 12:47:30.069: D/(11492): ++++++++++++++++++++++Setting up the canvas ID to be 2
+05-08 12:47:30.159: D/(11492): ++++++++++++++++ Deleting the canvas with id 0
+05-08 12:47:30.159: D/(11492): ++++++++++++++++ Deleting the canvas with id 1
+05-08 12:47:30.159: D/(11492): ++++++++++++++++ Deleting the canvas with id 2
+05-08 12:47:32.389: D/-heap(11492): GC_CONCURRENT freed 4082K, 40% free 7210K/12003K, paused 2ms+33ms
+05-08 12:49:05.299: D/-heap(11890): GC_FOR_ALLOC freed 47K, 20% free 6470K/8031K, paused 47ms
+05-08 12:49:05.389: D/-heap(11890): GC_CONCURRENT freed <1K, 15% free 9541K/11171K, paused 1ms+2ms
+05-08 12:49:06.139: I/Adreno200-EGLSUB(11890): <ConfigWindowMatch:2081>: Format RGBA_8888.
+05-08 12:49:06.169: D/memalloc(11890): /dev/pmem: Mapped buffer base:0x51936000 size:3645440 offset:3031040 fd:67
+05-08 12:49:06.509: D/memalloc(11890): /dev/pmem: Mapped buffer base:0x51fb0000 size:4259840 offset:3645440 fd:70
+05-08 12:49:09.119: D/memalloc(11890): /dev/pmem: Unmapping buffer base:0x51936000 size:3645440 offset:3031040
+05-08 12:49:09.119: D/memalloc(11890): /dev/pmem: Unmapping buffer base:0x51fb0000 size:4259840 offset:3645440
+05-08 12:49:09.709: D/WebSettings(11890): mDataPath: /data/data/be.artwhere.proximediademo
+05-08 12:49:09.819: V/CACHE(11890): Database DIR: /data/data/be.artwhere.proximediademo/files
+05-08 12:49:09.819: V/CACHE(11890): CACHE DIR: /data/data/be.artwhere.proximediademo/cache
+05-08 12:49:09.819: V/CACHE(11890): MODE
+05-08 12:49:09.839: V/CACHE(11890): ONLINE
+05-08 12:49:09.849: V/CACHE(11890): CLEAR
+05-08 12:49:10.019: V/CACHE(11890): LOAD
+05-08 12:49:10.079: I/Adreno200-EGLSUB(11890): <ConfigWindowMatch:2081>: Format RGBA_8888.
+05-08 12:49:10.099: D/memalloc(11890): /dev/pmem: Mapped buffer base:0x520b0000 size:2396160 offset:1781760 fd:81
+05-08 12:49:10.179: W/webcore(11890): java.lang.Throwable: EventHub.removeMessages(int what = 107) is not supported before the WebViewCore is set up.
+05-08 12:49:10.179: W/webcore(11890): 	at android.webkit.WebViewCore$EventHub.removeMessages(WebViewCore.java:1806)
+05-08 12:49:10.179: W/webcore(11890): 	at android.webkit.WebViewCore$EventHub.access$8300(WebViewCore.java:998)
+05-08 12:49:10.179: W/webcore(11890): 	at android.webkit.WebViewCore.removeMessages(WebViewCore.java:1918)
+05-08 12:49:10.179: W/webcore(11890): 	at android.webkit.WebView.sendOurVisibleRect(WebView.java:3011)
+05-08 12:49:10.179: W/webcore(11890): 	at android.webkit.ZoomManager.setZoomScale(ZoomManager.java:593)
+05-08 12:49:10.179: W/webcore(11890): 	at android.webkit.ZoomManager.access$1700(ZoomManager.java:49)
+05-08 12:49:10.179: W/webcore(11890): 	at android.webkit.ZoomManager$PostScale.run(ZoomManager.java:984)
+05-08 12:49:10.179: W/webcore(11890): 	at android.os.Handler.handleCallback(Handler.java:605)
+05-08 12:49:10.179: W/webcore(11890): 	at android.os.Handler.dispatchMessage(Handler.java:92)
+05-08 12:49:10.179: W/webcore(11890): 	at android.os.Looper.loop(Looper.java:137)
+05-08 12:49:10.179: W/webcore(11890): 	at android.app.ActivityThread.main(ActivityThread.java:4424)
+05-08 12:49:10.179: W/webcore(11890): 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-08 12:49:10.179: W/webcore(11890): 	at java.lang.reflect.Method.invoke(Method.java:511)
+05-08 12:49:10.179: W/webcore(11890): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:817)
+05-08 12:49:10.179: W/webcore(11890): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:584)
+05-08 12:49:10.179: W/webcore(11890): 	at dalvik.system.NativeStart.main(Native Method)
+05-08 12:49:10.319: D/memalloc(11890): /dev/pmem: Mapped buffer base:0x536c0000 size:3645440 offset:3031040 fd:87
+05-08 12:49:10.359: V/chromium(11890): external/chromium/net/host_resolver_helper/host_resolver_helper.cc:66: [0508/124910:INFO:host_resolver_helper.cc(66)] DNSPreResolver::Init got hostprovider:0x4fec1230
+05-08 12:49:10.359: V/chromium(11890): external/chromium/net/base/host_resolver_impl.cc:1515: [0508/124910:INFO:host_resolver_impl.cc(1515)] HostResolverImpl::SetPreresolver preresolver:0x015b0278
+05-08 12:49:10.419: D/(11890): external/chromium/net/socket/tcp_fin_aggregation_factory.cc: libtcpfinaggr.so successfully loaded
+05-08 12:49:10.419: D/(11890): external/chromium/net/socket/tcp_fin_aggregation_factory.cc,: TCP Fin Aggregation initializing method was found in libtcpfinaggr.so
+05-08 12:49:10.419: D/TCPFinAggregation(11890): system property net.tcp.fin.aggregation was set
+05-08 12:49:10.419: D/TCPFinAggregation(11890): system property net.tcp.fin.aggregation.wait was set, value: 20
+05-08 12:49:10.419: D/TCPFinAggregation(11890): system property net.tcp.fin.aggregation.close was set, value: 300
+05-08 12:49:10.419: D/TCPFinAggregation(11890): system property net.close.unused.sockets was set, value: 1
+05-08 12:49:10.419: D/TCPFinAggregation(11890): Failed to get network status! received ret: -2
+05-08 12:49:10.439: V/onLoadResource:(11890): http://winecard.proximedia.be/front/demo
+05-08 12:49:10.439: V/WebRequest(11890): WebRequest::WebRequest, setPriority = 1
+05-08 12:49:10.459: D/memalloc(11890): /dev/pmem: Mapped buffer base:0x53b3a000 size:4259840 offset:3645440 fd:98
+05-08 12:49:10.479: V/chromium(11890): external/chromium/net/disk_cache/hostres_plugin_bridge.cc:52: [0508/124910:INFO:hostres_plugin_bridge.cc(52)] StatHubCreateHostResPlugin initializing...
+05-08 12:49:10.489: V/chromium(11890): external/chromium/net/disk_cache/hostres_plugin_bridge.cc:57: [0508/124910:INFO:hostres_plugin_bridge.cc(57)] StatHubCreateHostResPlugin lib loaded
+05-08 12:49:10.489: V/chromium(11890): external/chromium/net/disk_cache/hostres_plugin_bridge.cc:63: [0508/124910:INFO:hostres_plugin_bridge.cc(63)] StatHubCreateHostResPlugin plugin connected
+05-08 12:49:10.489: V/chromium(11890): external/chromium/net/http/http_cache.cc:1173: [0508/124910:INFO:http_cache.cc(1173)] HttpCache::OnBackendCreated HostStat created
+05-08 12:49:10.489: E/chromium(11890): external/chromium/net/disk_cache/stat_hub.cc:190: [0508/124910:ERROR:stat_hub.cc(190)] StatHub::Init - App be.artwhere.proximediademo isn't supported.
+05-08 12:49:10.489: E/chromium(11890): external/chromium/net/disk_cache/stat_hub.cc:190: [0508/124910:ERROR:stat_hub.cc(190)] StatHub::Init - App be.artwhere.proximediademo isn't supported.
+05-08 12:49:11.619: V/onLoadResource:(11890): http://winecard.proximedia.be/manifest.appcache
+05-08 12:49:11.679: V/onLoadResource:(11890): http://fonts.googleapis.com/css?family=PT+Sans:400,700
+05-08 12:49:11.679: V/onLoadResource:(11890): http://winecard.proximedia.be/front/themes/2/stylesheets/style.css
+05-08 12:49:11.689: V/onLoadResource:(11890): http://winecard.proximedia.be/front/themes/2/stylesheets/app.css
+05-08 12:49:11.689: V/onLoadResource:(11890): http://winecard.proximedia.be/js/fancybox/jquery.fancybox.css
+05-08 12:49:11.699: V/onLoadResource:(11890): http://winecard.proximedia.be/js/jquery.js
+05-08 12:49:11.699: V/onLoadResource:(11890): http://winecard.proximedia.be/js/modernizr.min.js
+05-08 12:49:11.709: V/onLoadResource:(11890): http://winecard.proximedia.be/js/fancybox/jquery.fancybox.js
+05-08 12:49:11.709: V/onLoadResource:(11890): http://winecard.proximedia.be/front/themes/2/js/app.js
+05-08 12:49:12.329: V/onLoadResource:(11890): http://winecard.proximedia.be/files/images/116-Mont%20Tauch%20Syrah%20Grenache.jpg
+05-08 12:49:15.529: V/onLoadResource:(11890): http://themes.googleusercontent.com/static/fonts/ptsans/v4/G0XvmuebhPCfCq4YdUpRgALUuEpTyoUstqEm5AMlJo4.ttf
+05-08 12:49:15.529: V/onLoadResource:(11890): http://themes.googleusercontent.com/static/fonts/ptsans/v4/0XxGQsSc1g4rdRdjJKZrNMDdSZkkecOE1hvV7ZHvhyU.ttf
+05-08 12:49:15.549: D/(11890): ++++++++++++++++++++++Setting up the canvas ID to be 0
+05-08 12:49:15.559: D/(11890): ++++++++++++++++++++++Setting up the canvas ID to be 1
+05-08 12:49:15.559: D/(11890): ++++++++++++++++++++++Setting up the canvas ID to be 2
+05-08 12:49:15.649: D/(11890): ++++++++++++++++ Deleting the canvas with id 0
+05-08 12:49:15.649: D/(11890): ++++++++++++++++ Deleting the canvas with id 1
+05-08 12:49:15.649: D/(11890): ++++++++++++++++ Deleting the canvas with id 2
+05-08 12:49:15.959: V/onLoadResource:(11890): http://winecard.proximedia.be/front/base
+05-08 12:49:16.009: V/onLoadResource:(11890): http://winecard.proximedia.be/front/themes/2/img/bg-menu-big.jpg
+05-08 12:49:16.009: V/onLoadResource:(11890): http://winecard.proximedia.be/front/themes/2/img/logo-fr.png
+05-08 12:49:16.019: V/onLoadResource:(11890): http://winecard.proximedia.be/front/themes/2/img/bg-menu-big.png
+05-08 12:49:16.019: V/onLoadResource:(11890): http://winecard.proximedia.be/front/demo
+05-08 12:49:16.019: V/onLoadResource:(11890): http://winecard.proximedia.be/front/themes/2/img/background.jpg
+05-08 12:49:16.019: V/onLoadResource:(11890): http://winecard.proximedia.be/front/themes/2/img/bg-content.png
+05-08 12:49:16.019: V/onLoadResource:(11890): http://winecard.proximedia.be/files/images/103-DOCa%20Rioja%20Crianza.jpg
+05-08 12:49:16.589: D/-heap(11890): GC_CONCURRENT freed 4100K, 41% free 7188K/12003K, paused 2ms+26ms
+05-08 12:49:17.939: V/onLoadResource:(11890): http://winecard.proximedia.be/files/images/91-chili%20Vina%20Casas%20del%20Bosque%20Reserva.jpg
+05-08 12:49:19.259: V/onLoadResource:(11890): http://winecard.proximedia.be/front/themes/2/img/bg-drinks.png
+05-08 12:49:19.259: V/onLoadResource:(11890): http://winecard.proximedia.be/files/logos/1-Logo%20pigeon%20noir.gif
+05-08 12:49:20.259: D/-heap(11890): GC_CONCURRENT freed 1622K, 39% free 7322K/12003K, paused 2ms+40ms
+05-08 12:49:22.709: V/onLoadResource:(11890): http://winecard.proximedia.be/files/images/51-S2004033100215720003_XL.jpg
+05-08 12:49:24.459: V/onLoadResource:(11890): http://winecard.proximedia.be/front/themes/2/img/bg-content.jpg
+05-08 12:49:25.149: V/onLoadResource:(11890): http://winecard.proximedia.be/front/themes/2/stylesheets/style.less
+05-08 12:49:25.739: V/onLoadResource:(11890): http://winecard.proximedia.be/js/jquery.js
+05-08 12:49:26.119: V/onLoadResource:(11890): http://winecard.proximedia.be/files/images/105-Ch%C3%A2teau%20Puech-Haut%20Prestige.jpeg
+05-08 12:49:28.999: V/onLoadResource:(11890): http://winecard.proximedia.be/thumbs/files/images/112-Hermitage%20La%20Chapelle.jpg
+05-08 12:49:29.929: V/onLoadResource:(11890): http://winecard.proximedia.be/files/images/118-Domaine%20Hauvette%20%2C%20Amethyste.jpg
+05-08 12:49:30.999: V/onLoadResource:(11890): http://winecard.proximedia.be/thumbs/files/images/103-DOCa%20Rioja%20Crianza.jpg
+05-08 12:49:31.479: V/onLoadResource:(11890): http://winecard.proximedia.be/files/images/96-La%20croix%20belle%20ros%C3%A9.jpg
+05-08 12:49:32.159: V/onLoadResource:(11890): http://winecard.proximedia.be/files/images/113-C%C3%B4te%20R%C3%B4tie%20%C2%AB%20Maison%20Rouge%20%C2%BB.jpg
+05-08 12:49:33.519: V/onLoadResource:(11890): http://winecard.proximedia.be/files/images/102-DOCG%20Chianti%20Rufina%20%E2%80%93%20Fattoria%20Selvapiana.jpg
+05-08 12:49:34.119: V/onLoadResource:(11890): http://winecard.proximedia.be/front/themes/2/img/photos/img1.jpg
+05-08 12:49:34.719: V/onLoadResource:(11890): http://winecard.proximedia.be/thumbs/files/images/105-Ch%C3%A2teau%20Puech-Haut%20Prestige.jpeg
+05-08 12:49:35.629: V/onLoadResource:(11890): http://winecard.proximedia.be/files/images/100-dogarina_pinot_grigio%20IT.jpg
+05-08 12:49:37.109: V/onLoadResource:(11890): http://winecard.proximedia.be/files/images/52-CH%C3%82TEAU%20SAINT%20AUBIN.jpg
+05-08 12:49:40.079: V/onLoadResource:(11890): http://winecard.proximedia.be/thumbs/files/images/73-Domaine%20Albert%20Boxler%20Riesling%20Grand%20Cru.jpg
+05-08 12:49:41.079: V/onLoadResource:(11890): http://winecard.proximedia.be/files/images/95-IT%20Rouge%20Frapatto.jpeg
+05-08 12:49:42.399: V/onLoadResource:(11890): http://winecard.proximedia.be/thumbs/files/images/102-DOCG%20Chianti%20Rufina%20%E2%80%93%20Fattoria%20Selvapiana.jpg
+05-08 12:49:43.010: V/onLoadResource:(11890): http://winecard.proximedia.be/front/themes/2/img/bg-drinks.png
+05-08 12:49:43.380: V/onLoadResource:(11890): http://winecard.proximedia.be/thumbs/files/images/96-La%20croix%20belle%20ros%C3%A9.jpg
+05-08 12:49:44.169: V/onLoadResource:(11890): http://winecard.proximedia.be/front/themes/2/img/logos/logo1.jpg
+05-08 12:49:44.730: V/onLoadResource:(11890): http://winecard.proximedia.be/thumbs/files/images/107-Pouilly%20Fum%C3%A9%20Silex.jpg
+05-08 12:49:45.309: V/onLoadResource:(11890): http://winecard.proximedia.be/files/images/120-Ch%C3%A2teau%20Pape%20Cl%C3%A9ment%2C%20Le%20Cl%C3%A9mentin%20de%20Pape%20Cl%C3%A9ment.jpg
+05-08 12:49:46.459: V/onLoadResource:(11890): http://winecard.proximedia.be/thumbs/files/images/95-IT%20Rouge%20Frapatto.jpeg
+05-08 12:49:47.390: V/onLoadResource:(11890): http://winecard.proximedia.be/files/images/98-Zenato%20Ros%C3%A9%20Bardolino.jpg
+05-08 12:49:49.059: V/onLoadResource:(11890): http://winecard.proximedia.be/front/themes/2/stylesheets/media-queries.less
+05-08 12:49:49.409: V/onLoadResource:(11890): http://winecard.proximedia.be/files/images/92-Le%20chene%20st%20etienne.jpeg
+05-08 12:49:50.280: V/onLoadResource:(11890): http://winecard.proximedia.be/front/themes/2/img/photos/img2.jpg
+05-08 12:49:50.949: V/onLoadResource:(11890): http://winecard.proximedia.be/front/themes/2/description.ini
+05-08 12:49:51.330: V/onLoadResource:(11890): http://winecard.proximedia.be/files/images/110-Chablis%20G.C.%20Vaud%C3%A9sir.jpg
+05-08 12:49:54.219: V/onLoadResource:(11890): http://winecard.proximedia.be/front/themes/2/stylesheets/app.css
+05-08 12:49:54.599: V/onLoadResource:(11890): http://winecard.proximedia.be/thumbs/files/images/108-Savenni%C3%A8res%20%C2%AB%20Le%20Bel%20Ouvrage%20%C2%BB.jpeg
+05-08 12:49:55.459: V/onLoadResource:(11890): http://winecard.proximedia.be/thumbs/files/images/90-Por%20Tiara%20Niepoort.jpg
+05-08 12:49:56.050: V/onLoadResource:(11890): http://winecard.proximedia.be/front/themes/2/img/bg-menu-small.jpg
+05-08 12:49:57.280: V/onLoadResource:(11890): http://fonts.googleapis.com/css?family=PT+Sans:400,700
+05-08 12:49:57.649: V/onLoadResource:(11890): http://winecard.proximedia.be/thumbs/files/images/118-Domaine%20Hauvette%20%2C%20Amethyste.jpg
+05-08 12:49:58.369: V/onLoadResource:(11890): http://winecard.proximedia.be/thumbs/files/images/98-Zenato%20Ros%C3%A9%20Bardolino.jpg
+05-08 12:49:58.889: V/onLoadResource:(11890): http://winecard.proximedia.be/js/fancybox/fancybox_overlay.png
+05-08 12:49:59.310: V/onLoadResource:(11890): http://winecard.proximedia.be/thumbs/files/images/119-Etiquette-chateau-simone-blanc--palette.png
+05-08 12:50:00.519: V/onLoadResource:(11890): http://winecard.proximedia.be/files/images/94-CHi%20casasdelbosque%20Rouge.jpg
+05-08 12:50:01.089: V/onLoadResource:(11890): http://winecard.proximedia.be/files/images/108-Savenni%C3%A8res%20%C2%AB%20Le%20Bel%20Ouvrage%20%C2%BB.jpeg
+05-08 12:50:02.509: V/onLoadResource:(11890): http://winecard.proximedia.be/files/images/109-Chablis%201er%20Cru%20Mont%C3%A9e%20de%20Tonnerre.jpg
+05-08 12:50:04.189: V/onLoadResource:(11890): http://winecard.proximedia.be/thumbs/files/images/121-Saumur%20R%C3%A9serve%20Du%20Pigeonnier.jpg
+05-08 12:50:05.060: V/onLoadResource:(11890): http://winecard.proximedia.be/files/images/119-Etiquette-chateau-simone-blanc--palette.png
+05-08 12:50:12.209: V/onLoadResource:(11890): http://winecard.proximedia.be/js/selectivizr.min.js
+05-08 12:50:13.059: V/onLoadResource:(11890): http://winecard.proximedia.be/front/themes/2/stylesheets/helpers.less
+05-08 12:50:13.530: V/onLoadResource:(11890): http://winecard.proximedia.be/front/index
+05-08 12:50:14.150: V/onLoadResource:(11890): http://winecard.proximedia.be/thumbs/files/images/92-Le%20chene%20st%20etienne.jpeg
+05-08 12:50:14.919: V/onLoadResource:(11890): http://winecard.proximedia.be/thumbs/files/images/106-Gewurztraminer%20S%C3%A9lection%20de%20Grains%20Nobles%20Clos%20St..jpg
+05-08 12:50:15.879: V/onLoadResource:(11890): http://winecard.proximedia.be/files/images/101-El%20arte%20del%20Vivre.jpeg
+05-08 12:50:17.799: V/onLoadResource:(11890): http://winecard.proximedia.be/files/logos/1-Logo%20pigeon%20noir.gif
+05-08 12:50:18.360: V/onLoadResource:(11890): http://winecard.proximedia.be/files/images/99-Chakana-Reserve-Malbec-2010-Label%20ARG%20ROUGE.jpg
+05-08 12:50:20.119: V/onLoadResource:(11890): http://winecard.proximedia.be/thumbs/files/images/114-Gevrey-Chambertin%20Vieilles%20Vignes.jpg
+05-08 12:50:20.949: V/onLoadResource:(11890): http://winecard.proximedia.be/files/images/97-Oude%20Kaap%20ros%C3%A9.jpg
+05-08 12:50:23.239: V/onLoadResource:(11890): http://winecard.proximedia.be/files/images/112-Hermitage%20La%20Chapelle.jpg
+05-08 12:50:24.849: V/onLoadResource:(11890): http://winecard.proximedia.be/front/themes/2/js/app.js
+05-08 12:50:25.339: V/onLoadResource:(11890): http://winecard.proximedia.be/front/themes/2/img/logo-en.png
+05-08 12:50:26.139: V/onLoadResource:(11890): http://winecard.proximedia.be/files/images/121-Saumur%20R%C3%A9serve%20Du%20Pigeonnier.jpg
+05-08 12:50:27.969: V/onLoadResource:(11890): http://winecard.proximedia.be/front/themes/2/img/bg-menu-big.jpg
+05-08 12:50:28.439: V/onLoadResource:(11890): http://winecard.proximedia.be/thumbs/files/images/120-Ch%C3%A2teau%20Pape%20Cl%C3%A9ment%2C%20Le%20Cl%C3%A9mentin%20de%20Pape%20Cl%C3%A9ment.jpg
+05-08 12:50:29.259: V/onLoadResource:(11890): http://winecard.proximedia.be/thumbs/files/images/78-Ch%C3%A2teau%20Penin%20%E2%80%9CBlanc%E2%80%9D%20Bordeaux%20Superieur.png
+05-08 12:50:30.259: V/onLoadResource:(11890): http://winecard.proximedia.be/front/android
+05-08 12:50:30.880: V/onLoadResource:(11890): http://winecard.proximedia.be/thumbs/files/images/17-2.jpg
+05-08 12:50:32.079: V/onLoadResource:(11890): http://winecard.proximedia.be/front/themes/2/img/cover-right.png
+05-08 12:50:32.560: V/onLoadResource:(11890): http://winecard.proximedia.be/files/images/107-Pouilly%20Fum%C3%A9%20Silex.jpg
+05-08 12:50:33.409: V/onLoadResource:(11890): http://winecard.proximedia.be/js/fancybox/fancybox_loading.gif
+05-08 12:50:33.899: V/onLoadResource:(11890): http://winecard.proximedia.be/thumbs/files/images/116-Mont%20Tauch%20Syrah%20Grenache.jpg
+05-08 12:50:34.789: V/onLoadResource:(11890): http://winecard.proximedia.be/files/images/78-Ch%C3%A2teau%20Penin%20%E2%80%9CBlanc%E2%80%9D%20Bordeaux%20Superieur.png
+05-08 12:50:38.729: V/onLoadResource:(11890): http://winecard.proximedia.be/front/themes/2/img/sprite.png
+05-08 12:50:39.439: V/onLoadResource:(11890): http://winecard.proximedia.be/front/themes/2/js/modernizr.min.js
+05-08 12:50:40.279: V/onLoadResource:(11890): http://winecard.proximedia.be/js/fancybox/jquery.fancybox.js
+05-08 12:50:40.740: V/onLoadResource:(11890): http://winecard.proximedia.be/front/themes/2/img/bg-content.png
+05-08 12:50:41.259: V/onLoadResource:(11890): http://themes.googleusercontent.com/static/fonts/ptsans/v4/LKf8nhXsWg5ybwEGXk8UBQ.woff
+05-08 12:50:44.069: V/onLoadResource:(11890): http://themes.googleusercontent.com/static/fonts/ptsans/v4/0XxGQsSc1g4rdRdjJKZrNBsxEYwM7FgeyaSgU71cLG0.woff
+05-08 12:50:45.809: V/onLoadResource:(11890): http://winecard.proximedia.be/front/themes/2/screenshot.png
+05-08 12:51:01.569: V/onLoadResource:(11890): http://winecard.proximedia.be/front/themes/2/img/cover-left.png
+05-08 12:51:01.669: V/onLoadResource:(11890): http://winecard.proximedia.be/front/themes/2/img/cover-right.png
+05-08 12:51:01.669: V/onLoadResource:(11890): http://winecard.proximedia.be/front/themes/2/img/sprite.png
+05-08 12:51:05.479: D/memalloc(11890): /dev/pmem: Unmapping buffer base:0x520b0000 size:2396160 offset:1781760
+05-08 12:51:05.479: D/memalloc(11890): /dev/pmem: Unmapping buffer base:0x536c0000 size:3645440 offset:3031040
+05-08 12:51:05.479: D/memalloc(11890): /dev/pmem: Unmapping buffer base:0x53b3a000 size:4259840 offset:3645440
+05-08 12:51:14.479: V/CACHE(11890): LOAD AGAIN
+05-08 12:51:14.479: V/CACHE(11890): OFLINE
+05-08 12:51:14.529: I/Adreno200-EGLSUB(11890): <ConfigWindowMatch:2081>: Format RGBA_8888.
+05-08 12:51:14.529: D/memalloc(11890): /dev/pmem: Mapped buffer base:0x520ab000 size:1843200 offset:1228800 fd:87
+05-08 12:51:14.529: V/onLoadResource:(11890): http://winecard.proximedia.be/front/demo
+05-08 12:51:14.589: D/memalloc(11890): /dev/pmem: Mapped buffer base:0x536c0000 size:2457600 offset:1843200 fd:86
+05-08 12:51:14.659: V/onReceivedError. LOAD URL:(11890): http://winecard.proximedia.be/front/demo
+05-08 12:51:14.879: D/memalloc(11890): /dev/pmem: Mapped buffer base:0x53b3a000 size:3645440 offset:3031040 fd:105
+05-08 12:54:08.059: D/-heap(12885): GC_FOR_ALLOC freed 44K, 20% free 6470K/8031K, paused 69ms
+05-08 12:54:08.139: D/-heap(12885): GC_CONCURRENT freed 1K, 15% free 9540K/11171K, paused 2ms+2ms
+05-08 12:54:08.549: I/Adreno200-EGLSUB(12885): <ConfigWindowMatch:2081>: Format RGBA_8888.
+05-08 12:54:08.579: D/memalloc(12885): /dev/pmem: Mapped buffer base:0x51936000 size:2457600 offset:1843200 fd:67
+05-08 12:54:08.819: D/memalloc(12885): /dev/pmem: Mapped buffer base:0x51e8e000 size:5447680 offset:4833280 fd:70
+05-08 12:54:12.019: D/WebSettings(12885): mDataPath: /data/data/be.artwhere.proximediademo
+05-08 12:54:12.229: V/CACHE(12885): FILES SIZE: 0
+05-08 12:54:12.239: V/CACHE(12885): CACHE SIZE: 0
+05-08 12:54:12.239: V/CACHE(12885): Database DIR: /data/data/be.artwhere.proximediademo/files
+05-08 12:54:12.259: V/CACHE(12885): CACHE DIR: /data/data/be.artwhere.proximediademo/cache
+05-08 12:54:12.259: V/CACHE(12885): MODE
+05-08 12:54:12.279: V/CACHE(12885): ONLINE
+05-08 12:54:12.279: V/CACHE(12885): CLEAR
+05-08 12:54:12.289: V/CACHE CLEAR STATUS(12885):  true 
+05-08 12:54:12.289: V/CACHE CLEAR STATUS(12885):  true 
+05-08 12:54:12.289: V/CACHE CLEAR STATUS(12885):  true 
+05-08 12:54:12.289: V/CACHE CLEAR STATUS(12885):  true 
+05-08 12:54:12.299: V/CACHE(12885): FILES SIZE: 0
+05-08 12:54:12.299: V/CACHE(12885): CACHE SIZE: 0
+05-08 12:54:12.299: V/CACHE(12885): LOAD
+05-08 12:54:12.419: I/Adreno200-EGLSUB(12885): <ConfigWindowMatch:2081>: Format RGBA_8888.
+05-08 12:54:12.509: D/memalloc(12885): /dev/pmem: Mapped buffer base:0x529c0000 size:1843200 offset:1228800 fd:90
+05-08 12:54:12.599: W/webcore(12885): java.lang.Throwable: EventHub.removeMessages(int what = 107) is not supported before the WebViewCore is set up.
+05-08 12:54:12.599: W/webcore(12885): 	at android.webkit.WebViewCore$EventHub.removeMessages(WebViewCore.java:1806)
+05-08 12:54:12.599: W/webcore(12885): 	at android.webkit.WebViewCore$EventHub.access$8300(WebViewCore.java:998)
+05-08 12:54:12.599: W/webcore(12885): 	at android.webkit.WebViewCore.removeMessages(WebViewCore.java:1918)
+05-08 12:54:12.599: W/webcore(12885): 	at android.webkit.WebView.sendOurVisibleRect(WebView.java:3011)
+05-08 12:54:12.599: W/webcore(12885): 	at android.webkit.ZoomManager.setZoomScale(ZoomManager.java:593)
+05-08 12:54:12.599: W/webcore(12885): 	at android.webkit.ZoomManager.access$1700(ZoomManager.java:49)
+05-08 12:54:12.599: W/webcore(12885): 	at android.webkit.ZoomManager$PostScale.run(ZoomManager.java:984)
+05-08 12:54:12.599: W/webcore(12885): 	at android.os.Handler.handleCallback(Handler.java:605)
+05-08 12:54:12.599: W/webcore(12885): 	at android.os.Handler.dispatchMessage(Handler.java:92)
+05-08 12:54:12.599: W/webcore(12885): 	at android.os.Looper.loop(Looper.java:137)
+05-08 12:54:12.599: W/webcore(12885): 	at android.app.ActivityThread.main(ActivityThread.java:4424)
+05-08 12:54:12.599: W/webcore(12885): 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-08 12:54:12.599: W/webcore(12885): 	at java.lang.reflect.Method.invoke(Method.java:511)
+05-08 12:54:12.599: W/webcore(12885): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:817)
+05-08 12:54:12.599: W/webcore(12885): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:584)
+05-08 12:54:12.599: W/webcore(12885): 	at dalvik.system.NativeStart.main(Native Method)
+05-08 12:54:12.739: V/chromium(12885): external/chromium/net/host_resolver_helper/host_resolver_helper.cc:66: [0508/125412:INFO:host_resolver_helper.cc(66)] DNSPreResolver::Init got hostprovider:0x4f8e8230
+05-08 12:54:12.739: V/chromium(12885): external/chromium/net/base/host_resolver_impl.cc:1515: [0508/125412:INFO:host_resolver_impl.cc(1515)] HostResolverImpl::SetPreresolver preresolver:0x01861fe0
+05-08 12:54:12.739: D/memalloc(12885): /dev/pmem: Mapped buffer base:0x52c82000 size:6062080 offset:5447680 fd:99
+05-08 12:54:12.759: D/(12885): external/chromium/net/socket/tcp_fin_aggregation_factory.cc: libtcpfinaggr.so successfully loaded
+05-08 12:54:12.759: D/(12885): external/chromium/net/socket/tcp_fin_aggregation_factory.cc,: TCP Fin Aggregation initializing method was found in libtcpfinaggr.so
+05-08 12:54:12.759: D/TCPFinAggregation(12885): system property net.tcp.fin.aggregation was set
+05-08 12:54:12.759: D/TCPFinAggregation(12885): system property net.tcp.fin.aggregation.wait was set, value: 20
+05-08 12:54:12.759: D/TCPFinAggregation(12885): system property net.tcp.fin.aggregation.close was set, value: 300
+05-08 12:54:12.759: D/TCPFinAggregation(12885): system property net.close.unused.sockets was set, value: 1
+05-08 12:54:12.769: D/TCPFinAggregation(12885): Failed to get network status! received ret: -2
+05-08 12:54:12.789: V/WebRequest(12885): WebRequest::WebRequest, setPriority = 1
+05-08 12:54:12.839: V/chromium(12885): external/chromium/net/disk_cache/hostres_plugin_bridge.cc:52: [0508/125412:INFO:hostres_plugin_bridge.cc(52)] StatHubCreateHostResPlugin initializing...
+05-08 12:54:12.839: V/chromium(12885): external/chromium/net/disk_cache/hostres_plugin_bridge.cc:57: [0508/125412:INFO:hostres_plugin_bridge.cc(57)] StatHubCreateHostResPlugin lib loaded
+05-08 12:54:12.839: V/chromium(12885): external/chromium/net/disk_cache/hostres_plugin_bridge.cc:63: [0508/125412:INFO:hostres_plugin_bridge.cc(63)] StatHubCreateHostResPlugin plugin connected
+05-08 12:54:12.839: V/chromium(12885): external/chromium/net/http/http_cache.cc:1173: [0508/125412:INFO:http_cache.cc(1173)] HttpCache::OnBackendCreated HostStat created
+05-08 12:54:12.839: E/chromium(12885): external/chromium/net/disk_cache/stat_hub.cc:190: [0508/125412:ERROR:stat_hub.cc(190)] StatHub::Init - App be.artwhere.proximediademo isn't supported.
+05-08 12:54:12.839: E/chromium(12885): external/chromium/net/disk_cache/stat_hub.cc:190: [0508/125412:ERROR:stat_hub.cc(190)] StatHub::Init - App be.artwhere.proximediademo isn't supported.
+05-08 12:54:12.919: V/onLoadResource:(12885): http://winecard.proximedia.be/front/demo
+05-08 12:54:12.929: D/memalloc(12885): /dev/pmem: Unmapping buffer base:0x51936000 size:2457600 offset:1843200
+05-08 12:54:12.929: D/memalloc(12885): /dev/pmem: Unmapping buffer base:0x51e8e000 size:5447680 offset:4833280
+05-08 12:54:13.089: D/memalloc(12885): /dev/pmem: Mapped buffer base:0x51836000 size:2457600 offset:1843200 fd:69
+05-08 12:54:14.269: V/onLoadResource:(12885): http://winecard.proximedia.be/manifest.appcache
+05-08 12:54:14.319: V/onLoadResource:(12885): http://fonts.googleapis.com/css?family=PT+Sans:400,700
+05-08 12:54:14.339: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/stylesheets/style.css
+05-08 12:54:14.349: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/stylesheets/app.css
+05-08 12:54:14.359: V/onLoadResource:(12885): http://winecard.proximedia.be/js/fancybox/jquery.fancybox.css
+05-08 12:54:14.369: V/onLoadResource:(12885): http://winecard.proximedia.be/js/jquery.js
+05-08 12:54:14.369: V/onLoadResource:(12885): http://winecard.proximedia.be/js/modernizr.min.js
+05-08 12:54:14.369: V/onLoadResource:(12885): http://winecard.proximedia.be/js/fancybox/jquery.fancybox.js
+05-08 12:54:14.379: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/js/app.js
+05-08 12:54:15.199: V/onLoadResource:(12885): http://winecard.proximedia.be/files/images/116-Mont%20Tauch%20Syrah%20Grenache.jpg
+05-08 12:54:18.259: V/onLoadResource:(12885): http://themes.googleusercontent.com/static/fonts/ptsans/v4/G0XvmuebhPCfCq4YdUpRgALUuEpTyoUstqEm5AMlJo4.ttf
+05-08 12:54:18.269: V/onLoadResource:(12885): http://themes.googleusercontent.com/static/fonts/ptsans/v4/0XxGQsSc1g4rdRdjJKZrNMDdSZkkecOE1hvV7ZHvhyU.ttf
+05-08 12:54:18.289: D/(12885): ++++++++++++++++++++++Setting up the canvas ID to be 0
+05-08 12:54:18.289: D/(12885): ++++++++++++++++++++++Setting up the canvas ID to be 1
+05-08 12:54:18.299: D/(12885): ++++++++++++++++++++++Setting up the canvas ID to be 2
+05-08 12:54:18.389: D/(12885): ++++++++++++++++ Deleting the canvas with id 0
+05-08 12:54:18.389: D/(12885): ++++++++++++++++ Deleting the canvas with id 1
+05-08 12:54:18.389: D/(12885): ++++++++++++++++ Deleting the canvas with id 2
+05-08 12:54:18.779: V/onLoadResource:(12885): http://winecard.proximedia.be/front/base
+05-08 12:54:18.859: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/img/bg-menu-big.jpg
+05-08 12:54:18.869: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/img/logo-fr.png
+05-08 12:54:18.869: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/img/bg-menu-big.png
+05-08 12:54:18.869: V/onLoadResource:(12885): http://winecard.proximedia.be/front/demo
+05-08 12:54:18.869: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/img/background.jpg
+05-08 12:54:18.869: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/img/bg-content.png
+05-08 12:54:18.889: V/onLoadResource:(12885): http://winecard.proximedia.be/files/images/103-DOCa%20Rioja%20Crianza.jpg
+05-08 12:54:19.949: V/onLoadResource:(12885): http://winecard.proximedia.be/files/images/91-chili%20Vina%20Casas%20del%20Bosque%20Reserva.jpg
+05-08 12:54:20.509: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/img/bg-drinks.png
+05-08 12:54:20.519: V/onLoadResource:(12885): http://winecard.proximedia.be/files/logos/1-Logo%20pigeon%20noir.gif
+05-08 12:54:21.769: V/onLoadResource:(12885): http://winecard.proximedia.be/files/images/51-S2004033100215720003_XL.jpg
+05-08 12:54:22.439: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/img/bg-content.jpg
+05-08 12:54:22.959: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/stylesheets/style.less
+05-08 12:54:23.509: V/onLoadResource:(12885): http://winecard.proximedia.be/js/jquery.js
+05-08 12:54:23.829: V/onLoadResource:(12885): http://winecard.proximedia.be/files/images/105-Ch%C3%A2teau%20Puech-Haut%20Prestige.jpeg
+05-08 12:54:25.129: V/onLoadResource:(12885): http://winecard.proximedia.be/thumbs/files/images/112-Hermitage%20La%20Chapelle.jpg
+05-08 12:54:25.949: V/onLoadResource:(12885): http://winecard.proximedia.be/files/images/118-Domaine%20Hauvette%20%2C%20Amethyste.jpg
+05-08 12:54:26.759: V/onLoadResource:(12885): http://winecard.proximedia.be/thumbs/files/images/103-DOCa%20Rioja%20Crianza.jpg
+05-08 12:54:27.269: V/onLoadResource:(12885): http://winecard.proximedia.be/files/images/96-La%20croix%20belle%20ros%C3%A9.jpg
+05-08 12:54:27.909: V/onLoadResource:(12885): http://winecard.proximedia.be/files/images/113-C%C3%B4te%20R%C3%B4tie%20%C2%AB%20Maison%20Rouge%20%C2%BB.jpg
+05-08 12:54:28.999: V/onLoadResource:(12885): http://winecard.proximedia.be/files/images/102-DOCG%20Chianti%20Rufina%20%E2%80%93%20Fattoria%20Selvapiana.jpg
+05-08 12:54:29.559: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/img/photos/img1.jpg
+05-08 12:54:30.099: V/onLoadResource:(12885): http://winecard.proximedia.be/thumbs/files/images/105-Ch%C3%A2teau%20Puech-Haut%20Prestige.jpeg
+05-08 12:54:30.749: V/onLoadResource:(12885): http://winecard.proximedia.be/files/images/100-dogarina_pinot_grigio%20IT.jpg
+05-08 12:54:31.649: V/onLoadResource:(12885): http://winecard.proximedia.be/files/images/52-CH%C3%82TEAU%20SAINT%20AUBIN.jpg
+05-08 12:54:33.029: V/onLoadResource:(12885): http://winecard.proximedia.be/thumbs/files/images/73-Domaine%20Albert%20Boxler%20Riesling%20Grand%20Cru.jpg
+05-08 12:54:33.649: V/onLoadResource:(12885): http://winecard.proximedia.be/files/images/95-IT%20Rouge%20Frapatto.jpeg
+05-08 12:54:34.509: V/onLoadResource:(12885): http://winecard.proximedia.be/thumbs/files/images/102-DOCG%20Chianti%20Rufina%20%E2%80%93%20Fattoria%20Selvapiana.jpg
+05-08 12:54:35.169: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/img/bg-drinks.png
+05-08 12:54:35.529: V/onLoadResource:(12885): http://winecard.proximedia.be/thumbs/files/images/96-La%20croix%20belle%20ros%C3%A9.jpg
+05-08 12:54:36.199: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/img/logos/logo1.jpg
+05-08 12:54:36.750: V/onLoadResource:(12885): http://winecard.proximedia.be/thumbs/files/images/107-Pouilly%20Fum%C3%A9%20Silex.jpg
+05-08 12:54:37.249: V/onLoadResource:(12885): http://winecard.proximedia.be/files/images/120-Ch%C3%A2teau%20Pape%20Cl%C3%A9ment%2C%20Le%20Cl%C3%A9mentin%20de%20Pape%20Cl%C3%A9ment.jpg
+05-08 12:54:38.039: V/onLoadResource:(12885): http://winecard.proximedia.be/thumbs/files/images/95-IT%20Rouge%20Frapatto.jpeg
+05-08 12:54:38.849: V/onLoadResource:(12885): http://winecard.proximedia.be/files/images/98-Zenato%20Ros%C3%A9%20Bardolino.jpg
+05-08 12:54:39.889: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/stylesheets/media-queries.less
+05-08 12:54:40.209: V/onLoadResource:(12885): http://winecard.proximedia.be/files/images/92-Le%20chene%20st%20etienne.jpeg
+05-08 12:54:40.959: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/img/photos/img2.jpg
+05-08 12:54:41.579: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/description.ini
+05-08 12:54:41.949: V/onLoadResource:(12885): http://winecard.proximedia.be/files/images/110-Chablis%20G.C.%20Vaud%C3%A9sir.jpg
+05-08 12:54:43.519: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/stylesheets/app.css
+05-08 12:54:43.889: V/onLoadResource:(12885): http://winecard.proximedia.be/thumbs/files/images/108-Savenni%C3%A8res%20%C2%AB%20Le%20Bel%20Ouvrage%20%C2%BB.jpeg
+05-08 12:54:44.519: V/onLoadResource:(12885): http://winecard.proximedia.be/thumbs/files/images/90-Por%20Tiara%20Niepoort.jpg
+05-08 12:54:45.269: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/img/bg-menu-small.jpg
+05-08 12:54:46.109: V/onLoadResource:(12885): http://fonts.googleapis.com/css?family=PT+Sans:400,700
+05-08 12:54:46.449: V/onLoadResource:(12885): http://winecard.proximedia.be/thumbs/files/images/118-Domaine%20Hauvette%20%2C%20Amethyste.jpg
+05-08 12:54:47.129: V/onLoadResource:(12885): http://winecard.proximedia.be/thumbs/files/images/98-Zenato%20Ros%C3%A9%20Bardolino.jpg
+05-08 12:54:47.689: V/onLoadResource:(12885): http://winecard.proximedia.be/js/fancybox/fancybox_overlay.png
+05-08 12:54:48.050: V/onLoadResource:(12885): http://winecard.proximedia.be/thumbs/files/images/119-Etiquette-chateau-simone-blanc--palette.png
+05-08 12:54:48.969: V/onLoadResource:(12885): http://winecard.proximedia.be/files/images/94-CHi%20casasdelbosque%20Rouge.jpg
+05-08 12:54:49.469: V/onLoadResource:(12885): http://winecard.proximedia.be/files/images/108-Savenni%C3%A8res%20%C2%AB%20Le%20Bel%20Ouvrage%20%C2%BB.jpeg
+05-08 12:54:50.569: V/onLoadResource:(12885): http://winecard.proximedia.be/files/images/109-Chablis%201er%20Cru%20Mont%C3%A9e%20de%20Tonnerre.jpg
+05-08 12:54:51.729: V/onLoadResource:(12885): http://winecard.proximedia.be/thumbs/files/images/121-Saumur%20R%C3%A9serve%20Du%20Pigeonnier.jpg
+05-08 12:54:52.389: V/onLoadResource:(12885): http://winecard.proximedia.be/files/images/119-Etiquette-chateau-simone-blanc--palette.png
+05-08 12:54:56.149: V/onLoadResource:(12885): http://winecard.proximedia.be/js/selectivizr.min.js
+05-08 12:54:56.759: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/stylesheets/helpers.less
+05-08 12:54:57.109: V/onLoadResource:(12885): http://winecard.proximedia.be/front/index
+05-08 12:54:57.639: V/onLoadResource:(12885): http://winecard.proximedia.be/thumbs/files/images/92-Le%20chene%20st%20etienne.jpeg
+05-08 12:54:58.309: V/onLoadResource:(12885): http://winecard.proximedia.be/thumbs/files/images/106-Gewurztraminer%20S%C3%A9lection%20de%20Grains%20Nobles%20Clos%20St..jpg
+05-08 12:54:58.950: V/onLoadResource:(12885): http://winecard.proximedia.be/files/images/101-El%20arte%20del%20Vivre.jpeg
+05-08 12:55:00.089: V/onLoadResource:(12885): http://winecard.proximedia.be/files/logos/1-Logo%20pigeon%20noir.gif
+05-08 12:55:00.449: V/onLoadResource:(12885): http://winecard.proximedia.be/files/images/99-Chakana-Reserve-Malbec-2010-Label%20ARG%20ROUGE.jpg
+05-08 12:55:01.519: V/onLoadResource:(12885): http://winecard.proximedia.be/thumbs/files/images/114-Gevrey-Chambertin%20Vieilles%20Vignes.jpg
+05-08 12:55:02.139: V/onLoadResource:(12885): http://winecard.proximedia.be/files/images/97-Oude%20Kaap%20ros%C3%A9.jpg
+05-08 12:55:03.579: V/onLoadResource:(12885): http://winecard.proximedia.be/files/images/112-Hermitage%20La%20Chapelle.jpg
+05-08 12:55:04.699: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/js/app.js
+05-08 12:55:05.049: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/img/logo-en.png
+05-08 12:55:05.559: V/onLoadResource:(12885): http://winecard.proximedia.be/files/images/121-Saumur%20R%C3%A9serve%20Du%20Pigeonnier.jpg
+05-08 12:55:06.639: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/img/bg-menu-big.jpg
+05-08 12:55:07.049: V/onLoadResource:(12885): http://winecard.proximedia.be/thumbs/files/images/120-Ch%C3%A2teau%20Pape%20Cl%C3%A9ment%2C%20Le%20Cl%C3%A9mentin%20de%20Pape%20Cl%C3%A9ment.jpg
+05-08 12:55:07.789: V/onLoadResource:(12885): http://winecard.proximedia.be/thumbs/files/images/78-Ch%C3%A2teau%20Penin%20%E2%80%9CBlanc%E2%80%9D%20Bordeaux%20Superieur.png
+05-08 12:55:08.529: V/onLoadResource:(12885): http://winecard.proximedia.be/front/android
+05-08 12:55:09.099: V/onLoadResource:(12885): http://winecard.proximedia.be/thumbs/files/images/17-2.jpg
+05-08 12:55:09.779: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/img/cover-right.png
+05-08 12:55:10.209: V/onLoadResource:(12885): http://winecard.proximedia.be/files/images/107-Pouilly%20Fum%C3%A9%20Silex.jpg
+05-08 12:55:10.939: V/onLoadResource:(12885): http://winecard.proximedia.be/js/fancybox/fancybox_loading.gif
+05-08 12:55:11.339: V/onLoadResource:(12885): http://winecard.proximedia.be/thumbs/files/images/116-Mont%20Tauch%20Syrah%20Grenache.jpg
+05-08 12:55:12.079: V/onLoadResource:(12885): http://winecard.proximedia.be/files/images/78-Ch%C3%A2teau%20Penin%20%E2%80%9CBlanc%E2%80%9D%20Bordeaux%20Superieur.png
+05-08 12:55:14.169: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/img/sprite.png
+05-08 12:55:15.079: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/js/modernizr.min.js
+05-08 12:55:15.759: V/onLoadResource:(12885): http://winecard.proximedia.be/js/fancybox/jquery.fancybox.js
+05-08 12:55:16.209: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/img/bg-content.png
+05-08 12:55:16.729: V/onLoadResource:(12885): http://themes.googleusercontent.com/static/fonts/ptsans/v4/LKf8nhXsWg5ybwEGXk8UBQ.woff
+05-08 12:55:17.729: V/onLoadResource:(12885): http://themes.googleusercontent.com/static/fonts/ptsans/v4/0XxGQsSc1g4rdRdjJKZrNBsxEYwM7FgeyaSgU71cLG0.woff
+05-08 12:55:18.589: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/screenshot.png
+05-08 12:55:27.109: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/stylesheets/normalize.less
+05-08 12:55:27.929: V/onLoadResource:(12885): http://winecard.proximedia.be/files/images/17-2.jpg
+05-08 12:55:29.519: V/onLoadResource:(12885): http://winecard.proximedia.be/js/fancybox/jquery.fancybox.css
+05-08 12:55:30.050: V/onLoadResource:(12885): http://winecard.proximedia.be/files/images/106-Gewurztraminer%20S%C3%A9lection%20de%20Grains%20Nobles%20Clos%20St..jpg
+05-08 12:55:31.209: V/onLoadResource:(12885): http://winecard.proximedia.be/thumbs/files/images/101-El%20arte%20del%20Vivre.jpeg
+05-08 12:55:31.919: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/img/logo-nl.png
+05-08 12:55:32.469: V/onLoadResource:(12885): http://winecard.proximedia.be/thumbs/files/images/97-Oude%20Kaap%20ros%C3%A9.jpg
+05-08 12:55:33.199: V/onLoadResource:(12885): http://winecard.proximedia.be/thumbs/files/images/113-C%C3%B4te%20R%C3%B4tie%20%C2%AB%20Maison%20Rouge%20%C2%BB.jpg
+05-08 12:55:33.869: V/onLoadResource:(12885): http://winecard.proximedia.be/files/images/114-Gevrey-Chambertin%20Vieilles%20Vignes.jpg
+05-08 12:55:35.229: V/onLoadResource:(12885): http://winecard.proximedia.be/files/images/90-Por%20Tiara%20Niepoort.jpg
+05-08 12:55:36.250: V/onLoadResource:(12885): http://winecard.proximedia.be/thumbs/files/images/104-Ch%C3%A2teau%20La%20Freynelle.jpg
+05-08 12:55:36.989: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/stylesheets/style.css
+05-08 12:55:37.429: V/onLoadResource:(12885): http://winecard.proximedia.be/files/images/111-C%C3%B4tes%20du%20Rh%C3%B4ne.jpeg
+05-08 12:55:38.769: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/img/logo-fr.png
+05-08 12:55:39.209: V/onLoadResource:(12885): http://winecard.proximedia.be/files/images/73-Domaine%20Albert%20Boxler%20Riesling%20Grand%20Cru.jpg
+05-08 12:55:40.729: V/onLoadResource:(12885): http://winecard.proximedia.be/thumbs/files/images/109-Chablis%201er%20Cru%20Mont%C3%A9e%20de%20Tonnerre.jpg
+05-08 12:55:41.510: V/onLoadResource:(12885): http://winecard.proximedia.be/thumbs/files/images/110-Chablis%20G.C.%20Vaud%C3%A9sir.jpg
+05-08 12:55:42.239: V/onLoadResource:(12885): http://winecard.proximedia.be/thumbs/files/images/99-Chakana-Reserve-Malbec-2010-Label%20ARG%20ROUGE.jpg
+05-08 12:55:42.949: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/img/cover-left.png
+05-08 12:55:43.420: V/onLoadResource:(12885): http://winecard.proximedia.be/js/fancybox/fancybox_sprite.png
+05-08 12:55:43.899: V/onLoadResource:(12885): http://winecard.proximedia.be/front/login
+05-08 12:55:44.509: V/onLoadResource:(12885): http://winecard.proximedia.be/files/images/104-Ch%C3%A2teau%20La%20Freynelle.jpg
+05-08 12:55:45.909: V/onLoadResource:(12885): http://winecard.proximedia.be/js/fancybox/blank.gif
+05-08 12:55:46.459: V/onLoadResource:(12885): http://winecard.proximedia.be/thumbs/files/images/91-chili%20Vina%20Casas%20del%20Bosque%20Reserva.jpg
+05-08 12:55:47.509: V/onLoadResource:(12885): http://winecard.proximedia.be/thumbs/files/images/94-CHi%20casasdelbosque%20Rouge.jpg
+05-08 12:55:48.180: V/onLoadResource:(12885): http://winecard.proximedia.be/thumbs/files/images/52-CH%C3%82TEAU%20SAINT%20AUBIN.jpg
+05-08 12:55:48.889: V/onLoadResource:(12885): http://winecard.proximedia.be/js/modernizr.min.js
+05-08 12:55:49.359: V/onLoadResource:(12885): http://winecard.proximedia.be/thumbs/files/images/51-S2004033100215720003_XL.jpg
+05-08 12:55:50.019: V/onLoadResource:(12885): http://winecard.proximedia.be/thumbs/files/images/111-C%C3%B4tes%20du%20Rh%C3%B4ne.jpeg
+05-08 12:55:50.820: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/js/selectivizr.min.js
+05-08 12:55:51.429: V/onLoadResource:(12885): http://winecard.proximedia.be/thumbs/files/images/100-dogarina_pinot_grigio%20IT.jpg
+05-08 12:55:52.139: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/stylesheets/elements.less
+05-08 12:55:52.699: V/onLoadResource:(12885): http://winecard.proximedia.be/front/themes/2/img/background.jpg

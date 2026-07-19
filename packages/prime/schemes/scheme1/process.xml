@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<process>
+	<info>
+		<name>Prime</name>
+	</info>
+
+	<stages>
+		<stage>
+			<module name='decompose'/>
+		</stage>
+		<stage>
+			<listmodule name='solver'/>
+		</stage>
+	</stages>
+</process>

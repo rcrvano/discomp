@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<info>
+		<fullname>Test solver</fullname>
+		<type>Shell script</type>
+		<os>Linux</os>
+	</info>
+	<commands>
+		<start>./start.sh</start>
+		<stop>./stop.sh</stop>
+	</commands>
+	<parameters>
+		<input>
+			<param>
+				<name>variants</name>
+				<type>file</type>
+				<filename>file.mps</filename>
+			</param>
+		</input>
+		<output>
+			<param>
+				<name>results</name>
+				<type>file</type>
+				<filename>file.out</filename>
+			</param>
+		</output>
+	</parameters>
+</module>

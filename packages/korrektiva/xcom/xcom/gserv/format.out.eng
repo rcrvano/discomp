@@ -1,0 +1,52 @@
+<HTML>
+<HEAD>
+<META http-equiv=Refresh content="10">
+<meta http-equiv="Content-Type" content="text/html; charset=koi8-r">
+<STYLE><!--
+TD {
+	font-size: 13px; font-family: Arial; color: #0;
+}
+--></STYLE>
+<TITLE>X-Com monitor: Clients=<!Hosts> Working=<!ActiveHosts> Communicating=<!ConnectedHosts> Peak=<!appPerf></TITLE>
+</HEAD>
+
+<BODY bgcolor=white topmargin=0>
+
+<center>
+
+<TABLE cellspacing=1 cellpadding=0 border=0 width=754>
+<TR>
+<TD bgcolor=#8080FF colspan=2 height=30><font color=white><b>&nbsp;&nbsp;Running <!Task> <!WorkTime></TD>
+<TR>
+<TD bgcolor=#CCCCFF align=center width=<!ReadyPart>%><!ReadyPartX>%</TD>
+<TD bgcolor=#E0E0FF align=center width=*>&nbsp;</TD>
+</TABLE>
+
+<TABLE cellspacing=1 cellpadding=0 border=0 width=754>
+<TR>
+<TD width=250 colspan=2 bgcolor=#8080FF height=30><font color=white><b>&nbsp;&nbsp;Clients</TD>
+<TD width=250 colspan=2 bgcolor=#8080FF height=30><font color=white><b>&nbsp;&nbsp;Portions</TD>
+<TD width=250 colspan=2 bgcolor=#8080FF height=30><font color=white><b>&nbsp;&nbsp;Performance</TD>
+<TR>
+<TD width=150 bgcolor=#CCCCFF height=20 align=Right>Total/Nodes: </TD><TD bgcolor=#E0E0FF width=100>&nbsp;<!Hosts>/<!RealNodes></TD>
+<TD width=150 bgcolor=#CCCCFF align=Right>Total: </TD><TD bgcolor=#E0E0FF width=100>&nbsp;<!NP></TD>
+<TD width=150 bgcolor=#CCCCFF align=Right>Peak: </TD><TD bgcolor=#E0E0FF width=100>&nbsp;<!appPerf> Gflops</TD>
+<TR>
+<TD bgcolor=#CCCCFF height=20 align=Right>Working/Waiting/Real: </TD><TD bgcolor=#E0E0FF>&nbsp;<!ActiveHosts>/<!InactiveHosts>/<!RealProcs></TD>
+<TD bgcolor=#CCCCFF align=Right>Completed: </TD><TD bgcolor=#E0E0FF>&nbsp;<!processedPortionsCount></TD>
+<TD bgcolor=#CCCCFF align=Right><!--Virtual: -->&nbsp;</TD><TD bgcolor=#E0E0FF>&nbsp;<!--<!Perf>--></TD>
+<TR>
+<TD bgcolor=#CCCCFF height=20 align=Right>Communicating: </TD><TD bgcolor=#E0E0FF>&nbsp;<!ConnectedHosts></TD>
+<TD bgcolor=#CCCCFF align=Right>Last: </TD><TD bgcolor=#E0E0FF>&nbsp;<!lastAskedPortion></TD>
+<TD bgcolor=#CCCCFF align=Right>Efficiency: </TD><TD bgcolor=#E0E0FF>&nbsp;<!KPD></TD>
+</TABLE>
+
+<TABLE cellspacing=1 cellpadding=0 border=0 width=754>
+<TR>
+<TD colspan=2 bgcolor=#8080FF height=30><font color=white><b>&nbsp;&nbsp;Computation map</TD>
+
+<!Table>
+
+</TABLE>
+Generated in <!G> ms.
+</BODY>

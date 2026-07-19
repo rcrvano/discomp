@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<info>
+		<fullname>Decompose</fullname>
+		<comment>Module for decompose data</comment>
+		<type>Script</type>
+		<os>Linux</os>
+	</info>
+	<operations>
+		<operation name='op1'>
+			<commands>
+				<start>./decompose.sh</start>
+			</commands>
+			<parameters>
+				<input>
+					<param>
+						<name>decompose</name>
+						<type>file</type>
+						<filename>decompose_num</filename>
+					</param>
+				</input>
+				<output>
+					<param>
+						<name>list_input</name>
+						<type>filelist</type>
+						<filepattern>input%1</filepattern>
+					</param>
+				</output>
+			</parameters>
+		</operation>
+		<operation name='op2'>
+			<commands>
+				<start>./decompose.sh</start>
+			</commands>
+			<parameters>
+				<input>
+					<param>
+						<name>decompose</name>
+						<type>file</type>
+						<filename>decompose_num</filename>
+					</param>
+				</input>
+				<output>
+					<param>
+						<name>list_input</name>
+						<type>filelist</type>
+						<filepattern>input%1</filepattern>
+					</param>
+				</output>
+			</parameters>
+		</operation>
+	</operations>
+</module>

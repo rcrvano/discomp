@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<info>
+		<fullname>Decompose</fullname>
+		<comment>Module for decompose data</comment>
+		<type>Script</type>
+		<os>Linux/Windows</os>
+	</info>
+			<commands>
+				<start stdout="s.out" stderr="s.err">./decompose.sh</start>
+			</commands>
+			<parameters>
+				<input>
+					<param>
+						<name>input</name>
+						<type>file</type>
+						<filename>input.xml</filename>
+					</param>
+				</input>
+				<output>
+					<param>
+						<name>variants</name>
+						<type>filelist</type>
+						<filepattern>%1.mps</filepattern>
+					</param>
+				</output>
+			</parameters>
+</module>

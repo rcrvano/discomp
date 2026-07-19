@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module>
+	<info>
+		<name>copy</name>
+		<fullname></fullname>
+		<comment></comment>
+		<os></os>
+		<type></type>
+	</info>
+	<commands>
+		<start max_time='' stdout='' detached=''>./cp.sh</start>
+		<stop detached=''></stop>
+	</commands>
+	<parameters>
+		<input>
+			<param>
+				<name>input.txt</name>
+				<type>file</type>
+				<comment></comment>
+				<filename>input.txt</filename>
+				<filepattern></filepattern>
+				<constant></constant>
+				<size></size>
+				<regexp></regexp>
+			</param>
+		</input>
+		<output>
+			<param>
+				<name>output.txt</name>
+				<type>file</type>
+				<comment></comment>
+				<filename>output.txt</filename>
+				<filepattern></filepattern>
+				<constant></constant>
+				<size></size>
+				<regexp></regexp>
+			</param>
+		</output>
+	</parameters>
+</module>

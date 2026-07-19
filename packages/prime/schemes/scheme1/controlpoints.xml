@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<controlpoint process_plan_md5='a8d8494c3ebf11ee'>
+	<stage num='1'>
+		<module name='prime.solver' status='0' list='1' list_num='0'/>
+		<module name='prime.solver' status='0' list='1' list_num='1'/>
+		<module name='prime.solver' status='0' list='1' list_num='2'/>
+		<module name='prime.solver' status='0' list='1' list_num='3'/>
+		<module name='prime.solver' status='0' list='1' list_num='4'/>
+		<module name='prime.solver' status='0' list='1' list_num='5'/>
+		<module name='prime.solver' status='0' list='1' list_num='6'/>
+		<module name='prime.solver' status='0' list='1' list_num='7'/>
+		<module name='prime.solver' status='0' list='1' list_num='8'/>
+		<module name='prime.solver' status='0' list='1' list_num='9'/>
+	</stage>
+</controlpoint>

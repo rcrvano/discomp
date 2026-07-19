@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<parameters>
+	<param>
+		<name>input</name>
+		<type>filelist</type>
+		<comment></comment>
+		<filename></filename>
+		<filepattern>input%1.txt</filepattern>
+		<constant></constant>
+		<size></size>
+		<regexp></regexp>
+	</param>
+	<param>
+		<name>result</name>
+		<type>filelist</type>
+		<comment></comment>
+		<filename></filename>
+		<filepattern>result%1.txt</filepattern>
+		<constant></constant>
+		<size></size>
+		<regexp></regexp>
+	</param>
+	<param>
+		<name>max</name>
+		<type>file</type>
+		<comment></comment>
+		<filename>max</filename>
+		<filepattern></filepattern>
+		<constant></constant>
+		<size></size>
+		<regexp></regexp>
+	</param>
+	<param>
+		<name>count</name>
+		<type>file</type>
+		<comment></comment>
+		<filename>count</filename>
+		<filepattern></filepattern>
+		<constant></constant>
+		<size></size>
+		<regexp></regexp>
+	</param>
+</parameters>

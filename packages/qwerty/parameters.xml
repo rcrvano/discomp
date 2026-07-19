@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<parameters>
+	<param>
+		<name>input.txt</name>
+		<type>file</type>
+		<comment></comment>
+		<filename>input.txt</filename>
+		<filepattern></filepattern>
+		<constant></constant>
+		<size></size>
+		<regexp></regexp>
+	</param>
+	<param>
+		<name>output.txt</name>
+		<type>file</type>
+		<comment></comment>
+		<filename>output.txt</filename>
+		<filepattern></filepattern>
+		<constant></constant>
+		<size></size>
+		<regexp></regexp>
+	</param>
+</parameters>

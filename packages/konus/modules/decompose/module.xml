@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<info>
+		<name>konus_decompose</name>
+		<fullname>Decompose</fullname>
+		<version>1</version>
+		<comment>Generate input parameters for KONUS</comment>
+		<language>C++</language>
+		<type>binary</type>
+		<os>Linux</os>
+	</info>
+	<commands>
+		<start>./decompose</start>
+	</commands>
+	<parameters>
+		<input>
+			<param>
+				<name>konus.in.descr</name>
+				<type>file</type>
+				<filename>konus.in.descr</filename>
+				<comment>Description of input file for konus</comment>
+			</param>
+			<param>
+				<name>decomposition.count</name>
+				<type>file</type>
+				<filename>decomposition.num</filename>
+				<comment>decomposition count</comment>
+			</param>
+		</input>
+		<output>
+			<param>
+				<name>konus.in</name>
+				<type>filelist</type>
+				<filepattern>konus_%1.in</filepattern>
+				<comment>Variants of input parametes for konus</comment>
+			</param>
+		</output>
+	</parameters>
+</module>

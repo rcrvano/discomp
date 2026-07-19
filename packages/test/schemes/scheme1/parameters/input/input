@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<process>
+	<p1lugin src='plugin1.js'/>
+
+	<stages start_stage='0' controlpoints='0'>
+		<stage onStart="stage1Start()" onFinish="stage1Finish()">
+			<module id='500' onStart='moduleStart(500)' onFinish='moduleFinish(500)'/>
+			<!--
+			<module id='501' onStart='moduleStart(501)' onFinish='moduleFinish(501)' onStop="moduleStop(501)"/>
+		</stage>
+		<stage onStart="listStageStart()" onStop="listStageStop()" onTimer='listStageCheckResults()' onTimerInterval='100'>
+			<module id='503' onStart='listModuleStart()' onFinish='listModuleFinish()' onStop="listModuleStop()" list_parameter="2"/>
+			-->
+		</stage>
+	</stages>
+	<parameters>
+		<param>
+			<id>1</id>
+			<name>input</name>
+			<type>file</type>
+			<filename>input</filename>
+		</param>
+		<param>
+			<id>2</id>
+			<name>out</name>
+			<type>filelist</type>
+			<filepattern>out%1</filepattern>
+		</param>
+		<param>
+			<id>3</id>
+			<name>res</name>
+			<type>filelist</type>
+			<filepattern>res%1</filepattern>
+		</param>
+	</parameters>
+</process>

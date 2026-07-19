@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<controlpoint process_plan_md5='69656c22029811bb'>
+	<stage num='0'>
+		<module name='qwerty.copy' status='0'/>
+	</stage>
+</controlpoint>

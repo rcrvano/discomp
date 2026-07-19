@@ -1,0 +1,9 @@
+sub gcprepare { 
+return 1; 
+}
+
+sub gctask {
+my ($task,$taskarg,$portion,$din,$dout) = @_;
+`oilgas6solve $din $dout`;
+return 1;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<petri>
+<arc>
+	
+</arc>
+<places>
+	<place name='graph'/>
+	<place name='param2'/>
+</places>
+<transitions>
+	<transition name='decomposition'/>
+	<transition name='analyser'/>
+</transition>
+</perti>

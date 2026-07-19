@@ -1,0 +1,13 @@
+# +--------------------------------------------------------------------+
+# | Discomp : Distributed Calculating System of Modular Programming    |
+# +--------------------------------------------------------------------+
+# | Copyright (C) 2004-2007 ISDCT                                      |
+# | Institute of System Dynamics and Control Theory SB RAS             |
+# | Unauthorized reproduction is not allowed                           |
+# +--------------------------------------------------------------------+
+# | Author: Sidorov Ivan <ivan@sidorov.net> <ivan.sidorov@icc.ru>      |
+# +--------------------------------------------------------------------+
+
+# Communications preferences (server address and port)
+ServerIP     = 127.0.0.1
+ServerPort   = 5712

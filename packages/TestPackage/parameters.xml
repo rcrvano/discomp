@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<parameters>
+	<param>
+		<name>input</name>
+		<type>file</type>
+		<comment>Input file for scheme</comment>
+		<filename>input.txt</filename>
+		<filepattern></filepattern>
+		<constant></constant>
+		<size></size>
+		<regexp></regexp>
+	</param>
+	<param>
+		<name>gen_list</name>
+		<type>filelist</type>
+		<comment>Generated List</comment>
+		<filename></filename>
+		<filepattern>genlist%1.txt</filepattern>
+		<constant></constant>
+		<size></size>
+		<regexp></regexp>
+	</param>
+	<param>
+		<name>res_list</name>
+		<type>filelist</type>
+		<comment>Result list</comment>
+		<filename></filename>
+		<filepattern>reslist%1.txt</filepattern>
+		<constant></constant>
+		<size></size>
+		<regexp></regexp>
+	</param>
+	<param>
+		<name>result</name>
+		<type>file</type>
+		<comment>result</comment>
+		<filename>result.txt</filename>
+		<filepattern></filepattern>
+		<constant></constant>
+		<size></size>
+		<regexp></regexp>
+	</param>
+	<param>
+		<name>temp</name>
+		<type>file</type>
+		<comment>demo paramter</comment>
+		<filename>demo.txt</filename>
+		<filepattern></filepattern>
+		<constant></constant>
+		<size></size>
+		<regexp></regexp>
+	</param>
+</parameters>

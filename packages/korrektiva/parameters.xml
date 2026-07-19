@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<parameters>
+	<param>
+		<name>input</name>
+		<type>file</type>
+		<filename>input.xml</filename>
+	</param>
+	<param>
+		<name>variants</name>
+		<type>filelist</type>
+		<filepattern>%1.mps</filepattern>
+	</param>
+	<param>
+		<name>results</name>
+		<type>filelist</type>
+		<filepattern>%1.out</filepattern>
+	</param>
+	<param>
+		<name>result</name>
+		<type>file</type>
+		<filename>result</filename>
+	</param>
+</parameters>

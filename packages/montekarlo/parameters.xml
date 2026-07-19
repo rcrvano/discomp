@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<parameters>
+	<param>
+		<name>variants</name>
+		<type>filelist</type>
+		<filepattern>%1.in</filepattern>
+	</param>
+	<param>
+		<name>results</name>
+		<type>filelist</type>
+		<filepattern>%1.out</filepattern>
+	</param>
+	<param>
+		<name>result</name>
+		<type>file</type>
+		<filename>result</filename>
+	</param>
+</parameters>

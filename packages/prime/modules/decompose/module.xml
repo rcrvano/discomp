@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module>
+	<info>
+		<name>decompose</name>
+		<fullname></fullname>
+		<comment></comment>
+		<os></os>
+		<type></type>
+	</info>
+	<commands>
+		<start max_time='' stdout='' detached=''>decompose.exe {PARAM_VALUE:max} {PARAM_VALUE:count}</start>
+		<stop detached=''></stop>
+	</commands>
+	<parameters>
+		<input>
+			<param>
+				<name>max</name>
+				<type>file</type>
+				<comment></comment>
+				<filename>max</filename>
+				<filepattern></filepattern>
+				<constant></constant>
+				<size></size>
+				<regexp></regexp>
+			</param>
+			<param>
+				<name>count</name>
+				<type>file</type>
+				<comment></comment>
+				<filename>count</filename>
+				<filepattern></filepattern>
+				<constant></constant>
+				<size></size>
+				<regexp></regexp>
+			</param>
+		</input>
+		<output>
+			<param>
+				<name>input</name>
+				<type>filelist</type>
+				<comment></comment>
+				<filename></filename>
+				<filepattern>input%1.txt</filepattern>
+				<constant></constant>
+				<size></size>
+				<regexp></regexp>
+			</param>
+		</output>
+	</parameters>
+</module>
